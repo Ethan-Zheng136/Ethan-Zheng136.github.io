@@ -22,11 +22,11 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Guantian Zheng"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Wuhan"
+  location         : "Wuhan China"
   employer         : "Huazhong University of Science and Technology"
   uri              : # URL
   email            : "guantianzheng136@gmail.com" 
