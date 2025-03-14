@@ -13,7 +13,7 @@ title                    : "Guantian Zheng / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Guantian Zheng"
 description              : &description "personal description"
-url                      : https://ethan-zheng136.github.io
+url                      : https://github.com/Ethan-Zheng136/Ethan-Zheng136.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Ethan-Zheng136/Ethan-Zheng136.github.io"
 
