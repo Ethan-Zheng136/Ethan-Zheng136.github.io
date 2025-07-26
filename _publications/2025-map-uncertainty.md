@@ -7,7 +7,7 @@ excerpt: 'Investigated HD map uncertainty effects on trajectory prediction, prop
 date: 2025-10-01
 venue: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025)'
 # paperurl: 'https://arxiv.org/abs/2507.18498'
-citation: 'Zongzheng Zhang, Xuchong Qiu, Boran Zhang, Guantian Zheng, et al. "Delving into Mapping Uncertainty for Mapless Trajectory Prediction." <i>IROS 2025</i>.'
+# citation: 'Zongzheng Zhang, Xuchong Qiu, Boran Zhang, Guantian Zheng, et al. "Delving into Mapping Uncertainty for Mapless Trajectory Prediction." <i>IROS 2025</i>.'
 ---
 
 **Status**: Accepted to IROS 2025 🎉  
