@@ -7,7 +7,7 @@ excerpt: 'Developed a neuro-symbolic algorithm combining symbolic reasoning with
 date: 2025-03-01
 venue: 'IEEE International Conference on Robotics and Automation (ICRA 2025, Oral Presentation)'
 # paperurl: 'https://arxiv.org/abs/2503.07485'
-citation: 'Your Name, et al. "Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction." <i>ICRA 2025</i>.'
+# citation: 'Your Name, et al. "Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction." <i>ICRA 2025</i>.'
 ---
 
 **Status**: Accepted to ICRA 2025 (Oral Presentation) 🎉  
