@@ -48,7 +48,7 @@ I'm an undergraduate student at **Huazhong University of Science and Technology*
 
 <div style="border-left: 4px solid #e36209; padding-left: 20px; margin: 25px 0;">
 <h3 style="color: #e36209; margin-bottom: 8px;">Enhanced Point Cloud Reconstruction with PTv3 and HyperCD</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • Tsinghua AI Industry Research Institute</p>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute</p>
 <ul style="margin-left: 0; padding-left: 20px;">
 <li>Reproduced SVDFormer on PCN, ShapeNet-55, and ShapeNet-34 datasets with key metrics alignment</li>
 <li>Introduced <strong>HyperCD</strong> to replace original CD in loss function using hyperbolic space</li>
