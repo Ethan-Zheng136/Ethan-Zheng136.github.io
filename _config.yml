@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Guantian Zheng"
+title                    : "Guantian Zheng/Personal Homepage"
 title_separator          : "-"
 name                     : &name "Guantian Zheng"
 description              : &description "AI Researcher | Autonomous Driving | Computer Vision"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Guantian Zheng"
   pronouns         : # example: "she/her"  
-  bio              : "Undergraduate at HUST, AI Researcher at AIRlab, Tsinghua University"
+  bio              : "Undergraduate at HUST, AI Researcher at AIR, Tsinghua University"
   location         : "Wuhan, China"
   employer         : "Huazhong University of Sci and Tech"
   uri              : # URL
@@ -36,9 +36,9 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
