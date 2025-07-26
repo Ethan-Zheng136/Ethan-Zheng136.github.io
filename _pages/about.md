@@ -18,15 +18,15 @@ I'm an undergraduate student at **Huazhong University of Science and Technology*
 ## 🎓 Education & Research Experience
 
 **Westlake University** - AutoLab  
-Research Intern • Advisor: Prof. Kaicheng Yu • 2025 - Present
+Research Intern • Advisor: Prof. Kaicheng Yu • Jun 2025 - Present
 
 **Tsinghua University** - AI Industry Research Institute (AIR)  
 Research Intern • Advisor: Prof. Hao Zhao • Jun 2024 - Dec 2024  
-- Led trajectory prediction and lane topology projects resulting in 2 papers (ICRA 2025, IROS 2025)
+<!-- - Led trajectory prediction and lane topology projects resulting in 2 papers (ICRA 2025, IROS 2025) -->
 
 **Huazhong University of Science and Technology**  
-B.S. in Integrated Circuit Design • 2022 - 2026 (GPA: 87.9/100)  
-- Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
+B.S. in Integrated Circuit Design • 2022 - 2026 
+Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 
 ## 📰 Recent News
 - **[Jan 2025]** 🎉 Paper "Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction" **accepted to ICRA 2025 (Oral Presentation)**
