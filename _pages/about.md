@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I'm an undergraduate student at **Huazhong University of Science and Technology**, majoring in Integrated Circuit Design. I conduct research in **Autonomous Driving**, **Computer Vision**, and **AI/ML** at **Tsinghua University's AI Industry Research Institute**.
+<!-- I'm an undergraduate student at **Huazhong University of Science and Technology**, majoring in Integrated Circuit Design. I conduct research in **Autonomous Driving**, **Computer Vision**, and **AI/ML** at **Tsinghua University's AI Industry Research Institute**. -->
+I'm an undergraduate student at **Huazhong University of Science and Technology**, majoring in Integrated Circuit Design. Passionate about **Autonomous Driving**, I conduct cross-disciplinary research in **Computer Vision** and **AI/ML** at **Tsinghua University's AI Industry Research Institute**.
 
 ## 🔬 Research Interests
 - **Computer Vision** & **3D Reconstruction**
