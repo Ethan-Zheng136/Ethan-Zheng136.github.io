@@ -5,8 +5,8 @@ permalink: /publication/2025-chameleon
 category: conferences
 excerpt: 'Developed a neuro-symbolic algorithm combining symbolic reasoning with Chain-of-Thought-based visual language models for lane topology extraction.'
 date: 2025-03-01
-venue: 'IEEE International Conference on Robotics and Automation (ICRA 2025)'
-paperurl: 'https://arxiv.org/abs/2503.07485'
+venue: 'IEEE International Conference on Robotics and Automation (ICRA 2025, Oral Presentation)'
+# paperurl: 'https://arxiv.org/abs/2503.07485'
 citation: 'Your Name, et al. "Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction." <i>ICRA 2025</i>.'
 ---
 
