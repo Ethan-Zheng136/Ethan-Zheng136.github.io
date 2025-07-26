@@ -23,6 +23,30 @@ I'm an undergraduate student at **Huazhong University of Science and Technology*
 ## 🎯 Current Projects
 I'm currently leading multiple research projects at Tsinghua's AI Industry Research Institute:
 
+<div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 20px 0;">
+<h3 style="color: #0366d6; margin-bottom: 8px;">Mapping Uncertainty for Trajectory Prediction</h3>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute</p>
+<p>Proposed Proprioceptive Scenario Gating module achieving <strong>23.6% performance improvement</strong> over SOTA methods on nuScenes dataset.</p>
+</div>
+
+<div style="border-left: 4px solid #28a745; padding-left: 20px; margin: 20px 0;">
+<h3 style="color: #28a745; margin-bottom: 8px;">Chameleon: Neuro-symbolic Lane Topology</h3>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • Chain-of-Thought VLMs</p>
+<p>Reduced inference time from <strong>>200s to 0.1-8s per frame</strong> with 5% accuracy improvement on OpenLane-V2.</p>
+</div>
+
+<div style="border-left: 4px solid #e36209; padding-left: 20px; margin: 20px 0;">
+<h3 style="color: #e36209; margin-bottom: 8px;">Enhanced Point Cloud Reconstruction</h3>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Research Project</strong> • SVDFormer Enhancement</p>
+<p>Enhanced SVDFormer with PTv3 and HyperCD for improved processing speed and expanded receptive field.</p>
+</div>
+
+<div style="border-left: 4px solid #6f42c1; padding-left: 20px; margin: 20px 0;">
+<h3 style="color: #6f42c1; margin-bottom: 8px;">Brain-Controlled Mechanical Arm</h3>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • National Innovation Program</p>
+<p>Led EEG signal processing and mechanical arm integration for precise brain-computer interface control.</p>
+</div>
+
 ### **Delving into Mapping Uncertainty for Mapless Trajectory Prediction** (Team Leader)
 - Proposed **Proprioceptive Scenario Gating** module and **Covariance-Based Map Uncertainty** model
 - Achieved **23.6% performance improvement** over SOTA methods on nuScenes dataset  
