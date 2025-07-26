@@ -18,8 +18,7 @@ I'm an undergraduate student at **Huazhong University of Science and Technology*
 ## 📰 Recent News
 - **[Jan 2025]** 🎉 Paper "Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction" **accepted to ICRA 2025 (Oral Presentation)**
 - **[Jul 2024]** 🎉 Paper "Delving into Mapping Uncertainty for Mapless Trajectory Prediction" **accepted to IROS 2025**
-- **[Jun 2024]** 🎓 Started summer research program at **Tsinghua University**
-- **[Feb 2024]** 🏆 Won **2nd Prize** in National College Mathematics Competition
+
 
 ## 🎯 Current Projects
 I'm currently leading multiple research projects at Tsinghua's AI Industry Research Institute:
