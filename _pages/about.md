@@ -8,12 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-I'm an undergraduate student at **Huazhong University of Science and Technology**, majoring in Integrated Circuit Design (GPA: 87.9/100). I conduct research in **Autonomous Driving**, **Computer Vision**, and **AI/ML** at **Tsinghua University's AI Industry Research Institute**.
+I'm an undergraduate student at **Huazhong University of Science and Technology**, majoring in Integrated Circuit Design. I conduct research in **Autonomous Driving**, **Computer Vision**, and **AI/ML** at **Tsinghua University's AI Industry Research Institute**.
 
 ## 🔬 Research Interests
 - **Computer Vision** & **3D Reconstruction**
 - **Autonomous Driving** & **Trajectory Prediction** 
 - **Brain-Computer Interface**
+
+## 🎓 Education & Research Experience
+
+**Westlake University** - AutoLab  
+Research Intern • Advisor: Prof. Kaicheng Yu • 2025 - Present
+
+**Tsinghua University** - AI Industry Research Institute (AIR)  
+Research Intern • Advisor: Prof. Hao Zhao • Jun 2024 - Dec 2024  
+- Led trajectory prediction and lane topology projects resulting in 2 papers (ICRA 2025, IROS 2025)
+
+**Huazhong University of Science and Technology**  
+B.S. in Integrated Circuit Design • 2022 - 2026 (GPA: 87.9/100)  
+- Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 
 ## 📰 Recent News
 - **[Jan 2025]** 🎉 Paper "Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction" **accepted to ICRA 2025 (Oral Presentation)**
