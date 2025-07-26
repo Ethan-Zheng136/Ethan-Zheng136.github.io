@@ -23,6 +23,52 @@ I'm an undergraduate student at **Huazhong University of Science and Technology*
 ## 🎯 Current Projects
 I'm currently leading multiple research projects at Tsinghua's AI Industry Research Institute:
 
+<div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 25px 0;">
+<h3 style="color: #0366d6; margin-bottom: 8px;">Delving into Mapping Uncertainty for Mapless Trajectory Prediction</h3>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute • Jun 2024 - Present</p>
+<ul style="margin-left: 0; padding-left: 20px;">
+<li>Proposed lightweight <strong>Proprioceptive Scenario Gating</strong> module and <strong>Covariance-Based Map Uncertainty</strong> model</li>
+<li>Benchmarked four SOTA online map construction models (MapTR, MapTRv2, StreamMapNet) with HiVT and DenseTNT</li>
+<li>Achieved up to <strong>23.6% performance improvement</strong> over prior SOTA methods on nuScenes dataset</li>
+<li>Demonstrated <strong>10-30x faster inference speed</strong> for real-time deployment</li>
+</ul>
+<p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2507.18498" style="color: #0366d6;">[Paper]</a> <a href="https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction" style="color: #0366d6;">[Code]</a></p>
+</div>
+
+<div style="border-left: 4px solid #28a745; padding-left: 20px; margin: 25px 0;">
+<h3 style="color: #28a745; margin-bottom: 8px;">Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</h3>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • Chain-of-Thought Visual Language Models</p>
+<ul style="margin-left: 0; padding-left: 20px;">
+<li>Developed neuro-symbolic algorithm combining symbolic reasoning with <strong>Chain-of-Thought VLMs</strong></li>
+<li>Designed <strong>program synthesis framework</strong> generating executable Python code from few-shot prompts</li>
+<li>Reduced inference time from <strong>>200s to 0.1-8s per frame</strong> with 5% accuracy improvement</li>
+<li>Achieved consistent improvements on OpenLane-V2 dataset in 3-shot settings</li>
+</ul>
+<p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2503.07485" style="color: #28a745;">[Paper]</a> <a href="https://github.com/XR-Lee/neural-symbolic" style="color: #28a745;">[Code]</a></p>
+</div>
+
+<div style="border-left: 4px solid #e36209; padding-left: 20px; margin: 25px 0;">
+<h3 style="color: #e36209; margin-bottom: 8px;">Enhanced Point Cloud Reconstruction with PTv3 and HyperCD</h3>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • SVDFormer Enhancement Project</p>
+<ul style="margin-left: 0; padding-left: 20px;">
+<li>Reproduced SVDFormer on PCN, ShapeNet-55, and ShapeNet-34 datasets with key metrics alignment</li>
+<li>Introduced <strong>HyperCD</strong> to replace original CD in loss function using hyperbolic space</li>
+<li>Replaced 3D backbone with <strong>PTv3</strong> using z-order and Hilbert curves for sequential features</li>
+<li>Significantly boosted processing speed and expanded receptive field</li>
+</ul>
+</div>
+
+<div style="border-left: 4px solid #6f42c1; padding-left: 20px; margin: 25px 0;">
+<h3 style="color: #6f42c1; margin-bottom: 8px;">Brain-Controlled Mechanical Arm</h3>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • National College Student Innovation Program • Feb 2024 - May 2024</p>
+<ul style="margin-left: 0; padding-left: 20px;">
+<li>Developed innovative <strong>brain-computer interface system</strong> for real-time EEG-based robotic arm control</li>
+<li>Designed EEG cap and improved algorithms for enhanced accuracy and response speed</li>
+<li>Led front-end signal processing and coordinated integration of both systems</li>
+<li>Recruited volunteers and tested accuracy of brain-controlled movements</li>
+</ul>
+</div>
+
 <div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 20px 0;">
 <h3 style="color: #0366d6; margin-bottom: 8px;">Mapping Uncertainty for Trajectory Prediction</h3>
 <p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute</p>
