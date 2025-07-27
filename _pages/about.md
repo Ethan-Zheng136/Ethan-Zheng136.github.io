@@ -61,7 +61,7 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 
 <div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 25px 0;">
 <h3 style="color: #0366d6; margin-bottom: 8px;">Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • Tsinghua AI Industry Research Institute • ICRA 2025 (Oral)</p>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • Tsinghua AI Industry Research Institute • ICRA 2025 (Oral Presentation)</p>
 <ul style="margin-left: 0; padding-left: 20px;">
 <li>Developed neuro-symbolic algorithm combining symbolic reasoning with <strong>Chain-of-Thought VLMs</strong></li>
 <li>Designed <strong>program synthesis framework</strong> generating executable Python code from few-shot prompts</li>
