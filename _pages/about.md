@@ -149,9 +149,9 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 - **Academic Excellence Scholarship** (2023)
 - **National Math Competition - 2nd Prize** (2024)
 
-## 📚 Education
+<!-- ## 📚 Education
 - **B.S. in Integrated Circuit Design** | Huazhong University of Science and Technology (2022-2026)
-- **Summer Research Program** | Tsinghua University AI Industry Research Institute (2024)
+- **Summer Research Program** | Tsinghua University AI Industry Research Institute (2024) -->
 
 ---
 *I'm actively seeking research opportunities in Computer Vision and Autonomous Driving for graduate studies.*
