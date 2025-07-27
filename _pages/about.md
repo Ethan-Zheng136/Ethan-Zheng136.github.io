@@ -26,7 +26,7 @@ Research Intern • Advisor: Prof. Hao Zhao • Jun 2024 - Dec 2024
 <!-- - Led trajectory prediction and lane topology projects resulting in 2 papers (ICRA 2025, IROS 2025) -->
 
 **Huazhong University of Science and Technology**  
-B.S. in Integrated Circuit Design • 2022 - 2026 
+B.S. in Integrated Circuit Design • 2022 - 2026  
 Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 
 ## 📰 Recent News
