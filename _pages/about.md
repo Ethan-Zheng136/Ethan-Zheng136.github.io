@@ -36,6 +36,17 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 
 ## 🎯 Current Projects
 
+<div style="border-left: 4px solid #e36209; padding-left: 20px; margin: 25px 0;">
+<h3 style="color: #e36209; margin-bottom: 8px;">Enhanced Point Cloud Reconstruction with PTv3 and HyperCD</h3>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute</p>
+<ul style="margin-left: 0; padding-left: 20px;">
+<li>Reproduced SVDFormer on PCN, ShapeNet-55, and ShapeNet-34 datasets with key metrics alignment</li>
+<li>Introduced <strong>HyperCD</strong> to replace original CD in loss function using hyperbolic space</li>
+<li>Replaced 3D backbone with <strong>PTv3</strong> using z-order and Hilbert curves for sequential features</li>
+<li>Significantly boosted processing speed and expanded receptive field</li>
+</ul>
+</div>
+
 <div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 25px 0;">
 <h3 style="color: #0366d6; margin-bottom: 8px;">[IROS2025]Delving into Mapping Uncertainty for Mapless Trajectory Prediction</h3>
 <p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute</p>
@@ -58,17 +69,6 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 <li>Achieved consistent improvements on OpenLane-V2 dataset in 3-shot settings</li>
 </ul>
 <p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2503.07485" style="color: #28a745;">[Paper]</a> <a href="https://github.com/XR-Lee/neural-symbolic" style="color: #28a745;">[Code]</a></p>
-</div>
-
-<div style="border-left: 4px solid #e36209; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #e36209; margin-bottom: 8px;">Enhanced Point Cloud Reconstruction with PTv3 and HyperCD</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute</p>
-<ul style="margin-left: 0; padding-left: 20px;">
-<li>Reproduced SVDFormer on PCN, ShapeNet-55, and ShapeNet-34 datasets with key metrics alignment</li>
-<li>Introduced <strong>HyperCD</strong> to replace original CD in loss function using hyperbolic space</li>
-<li>Replaced 3D backbone with <strong>PTv3</strong> using z-order and Hilbert curves for sequential features</li>
-<li>Significantly boosted processing speed and expanded receptive field</li>
-</ul>
 </div>
 
 <div style="border-left: 4px solid #6f42c1; padding-left: 20px; margin: 25px 0;">
