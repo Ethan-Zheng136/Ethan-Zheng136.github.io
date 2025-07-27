@@ -37,7 +37,7 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 ## 🎯 Current Projects
 
 <div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #0366d6; margin-bottom: 8px;">Delving into Mapping Uncertainty for Mapless Trajectory Prediction</h3>
+<h3 style="color: #0366d6; margin-bottom: 8px;">[IROS2025]Delving into Mapping Uncertainty for Mapless Trajectory Prediction</h3>
 <p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute</p>
 <ul style="margin-left: 0; padding-left: 20px;">
 <li>Proposed lightweight <strong>Proprioceptive Scenario Gating</strong> module and <strong>Covariance-Based Map Uncertainty</strong> model</li>
@@ -49,7 +49,7 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 </div>
 
 <div style="border-left: 4px solid #28a745; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #28a745; margin-bottom: 8px;">Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</h3>
+<h3 style="color: #28a745; margin-bottom: 8px;">[ICRA2025 Oral]Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</h3>
 <p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • Tsinghua AI Industry Research Institute</p>
 <ul style="margin-left: 0; padding-left: 20px;">
 <li>Developed neuro-symbolic algorithm combining symbolic reasoning with <strong>Chain-of-Thought VLMs</strong></li>
