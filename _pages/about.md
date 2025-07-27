@@ -59,8 +59,8 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 <p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2507.18498" style="color: #0366d6;">[Paper]</a> <a href="https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction" style="color: #0366d6;">[Code]</a></p>
 </div>
 
-<div style="border-left: 4px solid #28a745; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #28a745; margin-bottom: 8px;">Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</h3>
+<div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 25px 0;">
+<h3 style="color: #0366d6; margin-bottom: 8px;">Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</h3>
 <p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • Tsinghua AI Industry Research Institute • ICRA 2025 (Oral)</p>
 <ul style="margin-left: 0; padding-left: 20px;">
 <li>Developed neuro-symbolic algorithm combining symbolic reasoning with <strong>Chain-of-Thought VLMs</strong></li>
@@ -68,7 +68,7 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 <li>Reduced inference time from <strong>>200s to 0.1-8s per frame</strong> with 5% accuracy improvement</li>
 <li>Achieved consistent improvements on OpenLane-V2 dataset in 3-shot settings</li>
 </ul>
-<p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2503.07485" style="color: #28a745;">[Paper]</a> <a href="https://github.com/XR-Lee/neural-symbolic" style="color: #28a745;">[Code]</a></p>
+<p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2503.07485" style="color: #0366d6;">[Paper]</a> <a href="https://github.com/XR-Lee/neural-symbolic" style="color: #0366d6;">[Code]</a></p>
 </div>
 
 <div style="border-left: 4px solid #6f42c1; padding-left: 20px; margin: 25px 0;">
@@ -105,8 +105,8 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 <p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2507.18498" style="color: #0366d6;">[Paper]</a> <a href="https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction" style="color: #0366d6;">[Code]</a></p>
 </div>
 
-<div style="border-left: 4px solid #28a745; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #28a745; margin-bottom: 8px;">[ICRA2025 Oral]Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</h3>
+<div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 25px 0;">
+<h3 style="color: #0366d6; margin-bottom: 8px;">[ICRA2025 Oral]Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</h3>
 <p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • Tsinghua AI Industry Research Institute</p>
 <ul style="margin-left: 0; padding-left: 20px;">
 <li>Developed neuro-symbolic algorithm combining symbolic reasoning with <strong>Chain-of-Thought VLMs</strong></li>
@@ -114,7 +114,7 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 <li>Reduced inference time from <strong>>200s to 0.1-8s per frame</strong> with 5% accuracy improvement</li>
 <li>Achieved consistent improvements on OpenLane-V2 dataset in 3-shot settings</li>
 </ul>
-<p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2503.07485" style="color: #28a745;">[Paper]</a> <a href="https://github.com/XR-Lee/neural-symbolic" style="color: #28a745;">[Code]</a></p>
+<p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2503.07485" style="color: #0366d6;">[Paper]</a> <a href="https://github.com/XR-Lee/neural-symbolic" style="color: #0366d6;">[Code]</a></p>
 </div>
 
 <div style="border-left: 4px solid #6f42c1; padding-left: 20px; margin: 25px 0;">
