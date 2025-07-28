@@ -18,20 +18,20 @@ I'm an undergraduate student at **Huazhong University of Science and Technology*
 
 ## 🎓 Education & Research Experience
 
-**Westlake University** - AutoLab  
-Research Intern • Advisor: Prof. Kaicheng Yu • Jun 2025 - Present
+**Westlake University** - [AutoLab](https://github.com/westlake-autolab)  
+Research Assistant • Advisor: [Prof. Kaicheng Yu](https://www.yukaicheng.cn/) • Jun 2025 - Present
 
-**Tsinghua University** - AI Industry Research Institute (AIR)  
-Research Intern • Advisor: Prof. Hao Zhao • Jun 2024 - Dec 2024  
+**Tsinghua University** - [AI Industry Research Institute](https://air.tsinghua.edu.cn/en/) (AIR)  
+Research Assistant • Advisor: [Prof. Hao Zhao](https://sites.google.com/view/fromandto) • Jun 2024 - Dec 2024  
 <!-- - Led trajectory prediction and lane topology projects resulting in 2 papers (ICRA 2025, IROS 2025) -->
 
 **Huazhong University of Science and Technology**  
-B.S. in Integrated Circuit Design • 2022 - 2026  
-Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
+B.S. in [Integrated Circuit Design](https://ic.hust.edu.cn/) • 2022 - 2026  
+Research Assistant with [Prof. Xinggang Wang](https://xwcv.github.io/)
 
 ## 📰 Recent News
 - **[Jan 2025]** 🎉 Paper "Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction" **accepted to ICRA 2025 (Oral Presentation)**
-- **[Jul 2024]** 🎉 Paper "Delving into Mapping Uncertainty for Mapless Trajectory Prediction" **accepted to IROS 2025**
+- **[Jun 2025]** 🎉 Paper "Delving into Mapping Uncertainty for Mapless Trajectory Prediction" **accepted to IROS 2025**
 
 
 ## 🎯 Current Projects
@@ -145,7 +145,9 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 ### **Brain-Controlled Mechanical Arm** (Team Leader)
 - Led EEG signal processing and mechanical arm integration for precise brain-computer interface control -->
 
-## 🏆 Selected Awards
+## 🏆 Honors & Awards
+- **Academic Excellence Scholarship** (2025)
+- **Self-Reliance Scholarship** (2024)
 - **Academic Excellence Scholarship** (2023)
 - **National Math Competition - 2nd Prize** (2024)
 
@@ -154,4 +156,4 @@ Research Intern with Prof. Xinggang Wang (Computer Vision Lab)
 - **Summer Research Program** | Tsinghua University AI Industry Research Institute (2024) -->
 
 ---
-*I'm actively seeking research opportunities in Computer Vision and Autonomous Driving for graduate studies.*
+*I'm actively seeking research opportunities in  Autonomous Driving and Computer Vision for graduate studies.*
