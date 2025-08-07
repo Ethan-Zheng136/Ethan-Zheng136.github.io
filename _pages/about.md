@@ -325,7 +325,7 @@ redirect_from:
 
 <h1 class="main-heading">Hi there <img src="/images/Hi.gif" class="hi-gif" alt="Hi"> Welcome to my Homepage!</h1>
 
-I'm an undergraduate (2022-2026) at **Huazhong University of Science and Technology**, passionate about **Autonomous Driving** and **Computer Vision**. I work at [AIRlab@Tsinghua](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto).
+I'm an undergraduate (2022-2026) at **Huazhong University of Science and Technology**, passionate about **Autonomous Driving** and **Computer Vision**. I work at [AIR@Tsinghua](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto).
 
 ## 🎯 Research Interests
 
