@@ -1,5 +1,13 @@
+---
+permalink: /
+title: ""
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
 
-<!-- 完整的CSS样式 - 直接替换你的<style>标签内容 -->
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     
@@ -56,32 +64,6 @@
         font-size: 0.95rem;
         line-height: 1.6;
         margin: 0;
-    }
-    
-    /* News Section */
-    .news-section {
-        background: linear-gradient(135deg, #fef5f1 0%, #f9f9f9 100%);
-        border-radius: 12px;
-        padding: 20px;
-        margin: 2rem 0;
-        border-left: 4px solid #ca6f6f;
-    }
-    
-    .news-item {
-        margin-bottom: 15px;
-        padding: 10px 0;
-        border-bottom: 1px solid #eee;
-    }
-    
-    .news-item:last-child {
-        border-bottom: none;
-        margin-bottom: 0;
-    }
-    
-    .news-date {
-        color: #ca6f6f;
-        font-weight: bold;
-        font-size: 0.9rem;
     }
     
     /* Experience Cards */
@@ -258,6 +240,21 @@
         margin-bottom: 8px;
     }
     
+    /* News样式调整 */
+    h2 + ul li {
+        margin-bottom: 12px;
+        line-height: 1.6;
+    }
+    
+    h2 + ul li strong {
+        color: #333;
+    }
+    
+    h2 + ul li em {
+        color: #ca6f6f;
+        font-style: italic;
+    }
+    
     /* 整体字体调整 */
     body {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -328,11 +325,9 @@
 
 <h1 class="main-heading">Hi there <img src="/images/Hi.gif" class="hi-gif" alt="Hi"> Welcome to my Homepage!</h1>
 
-I'm an undergraduate(2022-2026) at **Huazhong University of Science and Technology**, Passionate about **Autonomous Driving** and **Computer Vision**. I work at [AIRlab@Tsinghua](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto).
+I'm an undergraduate (2022-2026) at **Huazhong University of Science and Technology**, passionate about **Autonomous Driving** and **Computer Vision**. I work at [AIRlab@Tsinghua](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto).
 
 ## 🎯 Research Interests
-
-## Research Interests
 
 <div class="research-interests">
     <div class="interest-card">
@@ -346,27 +341,13 @@ I'm an undergraduate(2022-2026) at **Huazhong University of Science and Technolo
         <h3>Autonomous Driving & Trajectory Prediction</h3>
         <p>Creating robust mapless trajectory prediction systems and addressing uncertainty in online HD map construction for safer autonomous navigation.</p>
     </div>
-    
 </div>
 
-## 📰 News
+## News
 
-<div class="news-section">
-    <div class="news-item">
-        <div class="news-date">[Jan 2025]</div>
-        <div>🎉 Paper <strong>"Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction"</strong> accepted to <strong>ICRA 2025 (Oral Presentation)</strong></div>
-    </div>
-    
-    <div class="news-item">
-        <div class="news-date">[Jul 2025]</div>
-        <div>🎉 Paper <strong>"Delving into Mapping Uncertainty for Mapless Trajectory Prediction"</strong> accepted to <strong>IROS 2025</strong> - Featured in CV君 media coverage!</div>
-    </div>
-    
-    <div class="news-item">
-        <div class="news-date">[Jun 2025]</div>
-        <div>🔬 Started new research position at <strong>Westlake University AutoLab</strong> under Prof. Kaicheng Yu</div>
-    </div>
-</div>
+- *Our work* **Delving into Mapping Uncertainty for Mapless Trajectory Prediction** *is accepted in* **IROS 2025** 🔥
+- *Our work* **Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction** *is accepted in* **ICRA 2025 (Oral Presentation)** 🔥  
+- *Our brain-computer interface project* **Brain-Controlled Mechanical Arm** *was selected as* **National Innovation Program (National-level)** 🏆
 
 ## 🎓 Experience
 
