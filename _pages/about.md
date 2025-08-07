@@ -124,9 +124,9 @@ I am an undergraduate (2022-2026) at **Huazhong University of Science and Techno
 News
 ---------------
 
-- *Unleash the potential of uncertainty: [Delving into Uncertainty](https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction) is accepted in IROS 2025🔥 *
-- *Our work on lane topology: [Chameleon](https://github.com/XR-Lee/neural-symbolic) is accepted in ICRA 2025 (Oral Presentation)🔥 *
-- *Our brain-computer interface project: Brain-Controlled Mechanical Arm was selected asNational Innovation Program (National-level)🏆 *
+- *Unleash the potential of uncertainty: [Delving into Uncertainty](https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction) is accepted in IROS 2025🔥*
+- *Our work on lane topology: [Chameleon](https://github.com/XR-Lee/neural-symbolic) is accepted in ICRA 2025 (Oral Presentation)🔥*
+- *Our brain-computer interface project: Brain-Controlled Mechanical Arm was selected asNational Innovation Program (National-level)🏆*
 
 
 Experience
