@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Guantian Zheng/Personal Homepage"
+title                    : "Ethan Zheng/Personal Homepage"
 title_separator          : "-"
 name                     : &name "Guantian Zheng"
 description              : &description "AI Researcher | Autonomous Driving | Computer Vision"
@@ -74,7 +74,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : https://www.youtube.com/@guantianzheng
+  youtube          : www.youtube.com/@guantianzheng
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
