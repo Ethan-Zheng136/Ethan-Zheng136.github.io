@@ -313,7 +313,7 @@ redirect_from:
     /* 响应式设计 */
     @media (max-width: 768px) {
         .main-heading {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             text-align: center;
         }
         
