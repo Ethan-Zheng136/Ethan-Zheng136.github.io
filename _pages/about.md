@@ -174,17 +174,16 @@ Selected Projects
             <a target="_blank">zongzheng zhang</a>, 
             <a target="_blank">Xuchong Qiu</a>, 
             <a target="_blank">Boran Zhang</a>, 
-            <a herf="https://www.gilitschenski.org/igor", target="_blank">Igor Gilitschenski</a>
+            <a herf="https://www.gilitschenski.org/igor", target="_blank">Igor Gilitschenski</a>,
             <a target="_blank">Xunjiang Gu</a>, 
             <a herf="https://hangzhaomit.github.io", target="_blank">Hang Zhao</a>, 
             <a herf="https://sites.google.com/view/fromandto", target="_blank">Hao Zhao</a>, 
         </i><br>
         Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.<br>
-        <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;</i></b>
-        <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
-        <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
-        <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[3D-code]</em></a>
-        <a href="https://github.com/Selen-Suyue/DensePolicy2D"><em>[2D-code]</em></a>
+        <b><i style="color:#83a1c7;">IROS 2025 &nbsp;</i></b>
+        <a href="https://www.arxiv.org/abs/2507.18498"><em>[arXiv]</em></a>
+        <a href="https://ethan-zheng136.github.io/Dev-Unc"><em>[project page]</em></a>
+        <a href="https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction"><em>[code]</em></a>
     </div>
 </div>
 </div>
