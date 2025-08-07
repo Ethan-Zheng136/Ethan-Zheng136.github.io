@@ -371,7 +371,7 @@ I am an undergraduate (2022-2026) at **Huazhong University of Science and Techno
         <img src="/images/westlake-logo.png" alt="Westlake University" class="experience-logo">
         <div class="experience-info">
             <strong>Westlake University</strong>
-            <div class="date">June 2025 – Present</div>
+            <div class="date">Jun 2025 – Present</div>
             <div class="role">Research Assistant at <a href="https://github.com/westlake-autolab"><em>AutoLab</em></a></div>
         </div>
     </div>
@@ -380,8 +380,8 @@ I am an undergraduate (2022-2026) at **Huazhong University of Science and Techno
         <img src="/images/tsinghua-logo.png" alt="Tsinghua University" class="experience-logo">
         <div class="experience-info">
             <strong>Tsinghua University</strong>
-            <div class="date">June 2024 – December 2024</div>
-            <div class="role">Research Assistant at <a href="https://air.tsinghua.edu.cn/en/"><em>AI Industry Research Institute</em></a></div>
+            <div class="date">Jun 2024 – Present</div>
+            <div class="role">Research Assistant at <a href="https://air.tsinghua.edu.cn/en/"><em>AIR</em></a></div>
         </div>
     </div>
     
@@ -389,8 +389,8 @@ I am an undergraduate (2022-2026) at **Huazhong University of Science and Techno
         <img src="/images/hust-logo.png" alt="HUST" class="experience-logo">
         <div class="experience-info">
             <strong>Huazhong University of Science and Technology</strong>
-            <div class="date">September 2022 – July 2026</div>
-            <div class="role">B.Eng in Integrated Circuit Design, RA at <a href="https://xwcv.github.io/"><em>XWCV Lab</em></a></div>
+            <div class="date">Sep 2022 – Jul 2026</div>
+            <div class="role">Research Assistant at <a href="https://xwcv.github.io/"><em>XWCV Lab</em></a></div>
         </div>
     </div>
 </div>
@@ -401,7 +401,6 @@ I am an undergraduate (2022-2026) at **Huazhong University of Science and Techno
     <img src="/images/publication/uncertainty/teaser1.png" alt="Mapping Uncertainty">
     <div class="publication-content">
         <div class="publication-title">Delving into Mapping Uncertainty for Mapless Trajectory Prediction</div>
-        <div class="publication-authors">Zongzheng Zhang*, Xuchong Qiu*, Boran Zhang, <strong>Guantian Zheng</strong>, Xunjiang Gu, Guoxuan Chi, Huan-ang Gao, Leichen Wang, Ziming Liu, Xinrun Li, Igor Gilitschenski, Hongyang Li, Hang Zhao, Hao Zhao†</div>
         <div class="publication-description">Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.</div>
         <div class="publication-venue">IROS 2025</div>
         <div class="publication-links">
