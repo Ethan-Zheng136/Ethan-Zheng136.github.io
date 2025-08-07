@@ -168,18 +168,18 @@ Selected Projects
  <div style="display: flex; align-items: center;">
     <img src="images/publication/uncertainty/overview.png" alt="DSP" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>Dense Policy: Bidirectional Autoregressive Learning of Actions</strong><br>
+        <strong>Delving into Mapping Uncertainty for Mapless Trajectory Prediction</strong><br>
         <i style="font-size: 13px;">
-            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>*, 
-            <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan</a>*, 
-            <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
-            <a href="https://hanxue.me/" target="_blank">Han Xue</a>, <br>
-            <a href="https://fang-haoshu.github.io/" target="_blank">Haoshu Fang</a>, 
-            <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
-            <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
-            <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
+            <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
+            <a target="_blank">zongzheng zhang</a>, 
+            <a target="_blank">Xuchong Qiu</a>, 
+            <a target="_blank">Boran Zhang</a>, 
+            <a herf="https://www.gilitschenski.org/igor", target="_blank">Igor Gilitschenski</a>
+            <a target="_blank">Xunjiang Gu</a>, 
+            <a herf="https://hangzhaomit.github.io", target="_blank">Hang Zhao</a>, 
+            <a herf="https://sites.google.com/view/fromandto", target="_blank">Hao Zhao</a>, 
         </i><br>
-        Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, demonstrated exceeding diffusion policies.<br>
+        Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.<br>
         <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
         <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
