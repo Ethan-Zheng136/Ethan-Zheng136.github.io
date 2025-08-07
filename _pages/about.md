@@ -161,8 +161,33 @@ Experience
     </div>
 </div>
 
-Publications
+Selected Projects
 ---------------
+
+<div class="publication-card featured">
+ <div style="display: flex; align-items: center;">
+    <img src="images/publication/uncertainty/overview.png" alt="DSP" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>Dense Policy: Bidirectional Autoregressive Learning of Actions</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>*, 
+            <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan</a>*, 
+            <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
+            <a href="https://hanxue.me/" target="_blank">Han Xue</a>, <br>
+            <a href="https://fang-haoshu.github.io/" target="_blank">Haoshu Fang</a>, 
+            <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
+            <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
+            <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
+        </i><br>
+        Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, demonstrated exceeding diffusion policies.<br>
+        <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;</i></b>
+        <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
+        <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
+        <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[3D-code]</em></a>
+        <a href="https://github.com/Selen-Suyue/DensePolicy2D"><em>[2D-code]</em></a>
+    </div>
+</div>
+</div>
 
 <div class="publication-card">
     <img src="/images/publication/uncertainty/teaser1.png" alt="Mapping Uncertainty">
