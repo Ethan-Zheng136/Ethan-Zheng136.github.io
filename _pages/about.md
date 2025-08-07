@@ -1,25 +1,26 @@
-<!-- 替换你的CSS样式部分 -->
+
+<!-- 完整的CSS样式 - 直接替换你的<style>标签内容 -->
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     
-    /* 1. 调整标题大小，使用更学术的字体 */
+    /* 主标题样式 */
     .main-heading {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         text-align: center;
         color: #ca6f6f;
-        font-size: 1.8rem;  /* 从2.2rem改小到1.8rem */
+        font-size: 1.8rem;
         font-weight: 600;
-        margin: 1.5rem 0;   /* 减少上下边距 */
+        margin: 1.5rem 0;
     }
     
     .hi-gif {
-        width: 35px;        /* 从40px改小到35px */
+        width: 35px;
         height: 35px;
         vertical-align: middle;
         margin: 0 5px;
     }
     
-    /* 2. Research Interests - 移除悬浮效果，保持简洁 */
+    /* Research Interests */
     .research-interests {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -29,21 +30,20 @@
     
     .interest-card {
         background: white;
-        border: 1px solid #e0e0e0;     /* 简单边框 */
-        border-radius: 8px;            /* 较小的圆角 */
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
         padding: 25px;
         text-align: center;
-        /* 移除悬浮效果 - 不要transition和hover */
     }
     
     .interest-icon {
-        font-size: 2.5rem;             /* 从3rem改小 */
+        font-size: 2.5rem;
         margin-bottom: 15px;
         display: block;
     }
     
     .interest-card h3 {
-        color: #333;                   /* 改为深灰色，更学术 */
+        color: #333;
         font-family: 'Inter', sans-serif;
         font-weight: 600;
         font-size: 1.1rem;
@@ -58,7 +58,207 @@
         margin: 0;
     }
     
-    /* 3. 整体字体调整为学术风格 */
+    /* News Section */
+    .news-section {
+        background: linear-gradient(135deg, #fef5f1 0%, #f9f9f9 100%);
+        border-radius: 12px;
+        padding: 20px;
+        margin: 2rem 0;
+        border-left: 4px solid #ca6f6f;
+    }
+    
+    .news-item {
+        margin-bottom: 15px;
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .news-item:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    
+    .news-date {
+        color: #ca6f6f;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+    
+    /* Experience Cards */
+    .experience-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 20px;
+        margin: 2rem 0;
+    }
+    
+    .experience-card {
+        display: flex;
+        align-items: center;
+        background: #f9f9f9;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        transition: transform 0.3s, box-shadow 0.3s;
+        border: 2px solid transparent;
+    }
+    
+    .experience-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        border-color: #ca6f6f;
+    }
+    
+    .experience-logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+        border-radius: 8px;
+        object-fit: contain;
+    }
+    
+    .experience-info strong {
+        font-size: 1.1em;
+        color: #333;
+    }
+    
+    /* Publication Cards */
+    .publication-card {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border: 2px solid #ddd;
+        border-radius: 12px;
+        background: #fff;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    
+    .publication-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    
+    .publication-card.featured {
+        border-color: #f5bba7;
+        background: linear-gradient(135deg, #fef5f1 0%, #fff 100%);
+        box-shadow: 0 4px 12px rgba(242, 166, 120, 0.2);
+        position: relative;
+    }
+    
+    .publication-card.featured::before {
+        content: "⭐ Featured";
+        position: absolute;
+        top: -8px;
+        right: 20px;
+        background: #ca6f6f;
+        color: white;
+        padding: 4px 12px;
+        border-radius: 12px;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    
+    .publication-card.featured:hover {
+        box-shadow: 0 8px 20px rgba(242, 166, 120, 0.4);
+    }
+    
+    .publication-card strong {
+        font-size: 1.1rem;
+        color: #333;
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    .authors {
+        font-size: 13px;
+        color: #666;
+        margin-bottom: 8px;
+        line-height: 1.4;
+    }
+    
+    .description {
+        color: #555;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+    
+    .conference {
+        font-weight: bold;
+        color: #83a1c7;
+        margin-right: 10px;
+    }
+    
+    .links a {
+        margin-right: 10px;
+        font-size: 0.9rem;
+        color: #ca6f6f;
+        padding: 2px 8px;
+        border: 1px solid #ca6f6f;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+    
+    .links a:hover {
+        background: #ca6f6f;
+        color: white;
+    }
+    
+    /* Status Badges */
+    .status-badge {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 12px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-left: 8px;
+    }
+    
+    .status-accepted {
+        background: #d4edda;
+        color: #155724;
+    }
+    
+    .status-oral {
+        background: #f8d7da;
+        color: #721c24;
+    }
+    
+    .status-under-review {
+        background: #fff3cd;
+        color: #856404;
+    }
+    
+    /* Awards Grid */
+    .awards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin: 2rem 0;
+    }
+    
+    .award-item {
+        background: #f9f9f9;
+        border-radius: 8px;
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s ease;
+        border: 2px solid transparent;
+    }
+    
+    .award-item:hover {
+        transform: translateY(-3px);
+        border-color: #ca6f6f;
+    }
+    
+    .award-icon {
+        font-size: 2rem;
+        margin-bottom: 8px;
+    }
+    
+    /* 整体字体调整 */
     body {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         font-size: 16px;
@@ -66,11 +266,11 @@
         color: #333;
     }
     
-    /* 4. 标题样式调整 */
+    /* 标题样式 */
     h2 {
         color: #ca6f6f;
         font-family: 'Inter', sans-serif;
-        font-size: 1.5rem;             /* 适中的大小 */
+        font-size: 1.5rem;
         font-weight: 600;
         border-bottom: 2px solid #ca6f6f;
         padding-bottom: 8px;
@@ -84,7 +284,7 @@
         font-size: 1.2rem;
     }
     
-    /* 5. 链接样式保持简洁 */
+    /* 链接样式 */
     a {
         color: #ca6f6f;
         text-decoration: none;
@@ -94,6 +294,35 @@
     a:hover {
         color: #b85f5f;
         text-decoration: underline;
+    }
+    
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+        .main-heading {
+            font-size: 1.5rem;
+        }
+        
+        .publication-card {
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .publication-card img {
+            width: 100%;
+            max-width: 300px;
+            margin-right: 0 !important;
+            margin-bottom: 15px;
+        }
+        
+        .experience-card {
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .experience-logo {
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
     }
 </style>
 
