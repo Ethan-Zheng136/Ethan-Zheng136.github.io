@@ -1,365 +1,127 @@
----
-permalink: /
-title: "About Me"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
+<!-- 替换你的CSS样式部分 -->
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     
-    body {
-        background-color: #FFFFFF;
-        font-family: 'Kalam', 'Arial Rounded MT Bold', 'Verdana', sans-serif;
-        font-size: 15px;
-        line-height: 1.6;
-    }
-    
+    /* 1. 调整标题大小，使用更学术的字体 */
     .main-heading {
-        font-family: 'Permanent Marker', cursive;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         text-align: center;
         color: #ca6f6f;
-        font-size: 2.2rem;
-        margin: 2rem 0;
-    }
-    
-    .page__content {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-    
-    div.markdown-body a, a {
-        text-decoration: none !important;
-        color: #ca6f6f;
-        transition: all 0.3s ease;
-        font-weight: 500;
-    }
-    
-    div.markdown-body a:hover, a:hover {
-        color: #c71585;
-        text-decoration: underline;
-    }
-    
-    /* Experience/Education Cards */
-    .experience-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        gap: 20px;
-        margin: 2rem 0;
-    }
-    
-    .experience-card {
-        display: flex;
-        align-items: center;
-        background: #f9f9f9;
-        border-radius: 12px;
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-        transition: transform 0.3s, box-shadow 0.3s;
-        border: 2px solid transparent;
-    }
-    
-    .experience-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-        border-color: #ca6f6f;
-    }
-    
-    .experience-logo {
-        width: 60px;
-        height: 60px;
-        margin-right: 20px;
-        border-radius: 8px;
-        object-fit: contain;
-    }
-    
-    .experience-info strong {
-        font-size: 1.1em;
-        color: #333;
-    }
-    
-    /* Publication/Project Cards */
-    .publication-card {
-        display: flex;
-        align-items: center;
-        padding: 20px;
-        border: 2px solid #ddd;
-        border-radius: 12px;
-        background: #fff;
-        margin-bottom: 20px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-    
-    .publication-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-    }
-    
-    .publication-card.featured {
-        border-color: #f5bba7;
-        background: linear-gradient(135deg, #fef5f1 0%, #fff 100%);
-        box-shadow: 0 4px 12px rgba(242, 166, 120, 0.2);
-        position: relative;
-    }
-    
-    .publication-card.featured::before {
-        content: "⭐ Featured";
-        position: absolute;
-        top: -8px;
-        right: 20px;
-        background: #ca6f6f;
-        color: white;
-        padding: 4px 12px;
-        border-radius: 12px;
-        font-size: 0.8rem;
-        font-weight: bold;
-    }
-    
-    .publication-card.featured:hover {
-        box-shadow: 0 8px 20px rgba(242, 166, 120, 0.4);
-    }
-    
-    .publication-card img {
-        width: 200px;
-        height: 120px;
-        margin-right: 20px;
-        border-radius: 8px;
-        object-fit: cover;
-        border: 1px solid #eee;
-    }
-    
-    .publication-card .content {
-        flex: 1;
-    }
-    
-    .publication-card strong {
-        font-size: 1.1rem;
-        color: #333;
-        display: block;
-        margin-bottom: 8px;
-    }
-    
-    .authors {
-        font-size: 13px;
-        color: #666;
-        margin-bottom: 8px;
-        line-height: 1.4;
-    }
-    
-    .description {
-        color: #555;
-        margin-bottom: 10px;
-        line-height: 1.5;
-    }
-    
-    .conference {
-        font-weight: bold;
-        color: #83a1c7;
-        margin-right: 10px;
-    }
-    
-    .links a {
-        margin-right: 10px;
-        font-size: 0.9rem;
-        color: #ca6f6f;
-        padding: 2px 8px;
-        border: 1px solid #ca6f6f;
-        border-radius: 4px;
-        transition: all 0.3s ease;
-    }
-    
-    .links a:hover {
-        background: #ca6f6f;
-        color: white;
-    }
-    
-    /* Section Headers */
-    h2 {
-        color: #ca6f6f;
-        font-family: 'Kalam', sans-serif;
-        font-size: 1.8rem;
-        font-weight: 700;
-        border-bottom: 3px solid #ca6f6f;
-        padding-bottom: 8px;
-        margin: 3rem 0 1.5rem 0;
-    }
-    
-    h3 {
-        color: #333;
-        font-family: 'Kalam', sans-serif;
+        font-size: 1.8rem;  /* 从2.2rem改小到1.8rem */
         font-weight: 600;
+        margin: 1.5rem 0;   /* 减少上下边距 */
     }
     
-    /* News Section */
-    .news-section {
-        background: linear-gradient(135deg, #fef5f1 0%, #f9f9f9 100%);
-        border-radius: 12px;
-        padding: 20px;
-        margin: 2rem 0;
-        border-left: 4px solid #ca6f6f;
+    .hi-gif {
+        width: 35px;        /* 从40px改小到35px */
+        height: 35px;
+        vertical-align: middle;
+        margin: 0 5px;
     }
     
-    .news-item {
-        margin-bottom: 15px;
-        padding: 10px 0;
-        border-bottom: 1px solid #eee;
-    }
-    
-    .news-item:last-child {
-        border-bottom: none;
-        margin-bottom: 0;
-    }
-    
-    .news-date {
-        color: #ca6f6f;
-        font-weight: bold;
-        font-size: 0.9rem;
-    }
-    
-    /* Project Status Badges */
-    .status-badge {
-        display: inline-block;
-        padding: 4px 10px;
-        border-radius: 12px;
-        font-size: 0.8rem;
-        font-weight: bold;
-        margin-left: 8px;
-    }
-    
-    .status-accepted {
-        background: #d4edda;
-        color: #155724;
-    }
-    
-    .status-oral {
-        background: #f8d7da;
-        color: #721c24;
-    }
-    
-    .status-under-review {
-        background: #fff3cd;
-        color: #856404;
-    }
-    
-    /* Research Interests */
+    /* 2. Research Interests - 移除悬浮效果，保持简洁 */
     .research-interests {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 20px;
         margin: 2rem 0;
     }
     
     .interest-card {
         background: white;
-        border: 2px solid #f0f0f0;
-        border-radius: 12px;
+        border: 1px solid #e0e0e0;     /* 简单边框 */
+        border-radius: 8px;            /* 较小的圆角 */
         padding: 25px;
         text-align: center;
-        transition: all 0.3s ease;
-    }
-    
-    .interest-card:hover {
-        border-color: #ca6f6f;
-        transform: translateY(-5px);
-        box-shadow: 0 8px 16px rgba(202, 111, 111, 0.1);
+        /* 移除悬浮效果 - 不要transition和hover */
     }
     
     .interest-icon {
-        font-size: 3rem;
+        font-size: 2.5rem;             /* 从3rem改小 */
         margin-bottom: 15px;
+        display: block;
     }
     
     .interest-card h3 {
-        color: #ca6f6f;
+        color: #333;                   /* 改为深灰色，更学术 */
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 1.1rem;
         margin-bottom: 10px;
     }
     
-    /* Awards Grid */
-    .awards-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 15px;
-        margin: 2rem 0;
+    .interest-card p {
+        color: #666;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin: 0;
     }
     
-    .award-item {
-        background: #f9f9f9;
-        border-radius: 8px;
-        padding: 15px;
-        text-align: center;
-        transition: transform 0.3s ease;
-        border: 2px solid transparent;
+    /* 3. 整体字体调整为学术风格 */
+    body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
     }
     
-    .award-item:hover {
-        transform: translateY(-3px);
-        border-color: #ca6f6f;
+    /* 4. 标题样式调整 */
+    h2 {
+        color: #ca6f6f;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;             /* 适中的大小 */
+        font-weight: 600;
+        border-bottom: 2px solid #ca6f6f;
+        padding-bottom: 8px;
+        margin: 2.5rem 0 1.5rem 0;
     }
     
-    .award-icon {
-        font-size: 2rem;
-        margin-bottom: 8px;
+    h3 {
+        color: #333;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
     }
     
-    /* Responsive Design */
-    @media (max-width: 768px) {
-        .main-heading {
-            font-size: 1.8rem;
-        }
-        
-        .publication-card {
-            flex-direction: column;
-            text-align: center;
-        }
-        
-        .publication-card img {
-            width: 100%;
-            max-width: 300px;
-            margin-right: 0;
-            margin-bottom: 15px;
-        }
-        
-        .experience-card {
-            flex-direction: column;
-            text-align: center;
-        }
-        
-        .experience-logo {
-            margin-right: 0;
-            margin-bottom: 15px;
-        }
+    /* 5. 链接样式保持简洁 */
+    a {
+        color: #ca6f6f;
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+    
+    a:hover {
+        color: #b85f5f;
+        text-decoration: underline;
     }
 </style>
 
-<h1 class="main-heading">Hi there 👋 Welcome to my Homepage!</h1>
+<h1 class="main-heading">Hi there <img src="/images/Hi.gif" class="hi-gif" alt="Hi"> Welcome to my Homepage!</h1>
 
 I'm an undergraduate student at **Huazhong University of Science and Technology**, majoring in Integrated Circuit Design. Passionate about **Autonomous Driving**, I conduct cross-disciplinary research in **Computer Vision** and **AI/ML** at **Tsinghua University's AI Industry Research Institute**.
 
 ## 🎯 Research Interests
 
+## Research Interests
+
 <div class="research-interests">
     <div class="interest-card">
-        <div class="interest-icon">🤖</div>
+        <span class="interest-icon">🤖</span>
         <h3>Computer Vision & 3D Reconstruction</h3>
-        <p>Developing advanced algorithms for 3D scene understanding, point cloud completion, and visual perception systems.</p>
+        <p>Developing advanced algorithms for 3D scene understanding, point cloud completion, and visual perception systems for autonomous vehicles.</p>
     </div>
     
     <div class="interest-card">
-        <div class="interest-icon">🚗</div>
+        <span class="interest-icon">🚗</span>
         <h3>Autonomous Driving & Trajectory Prediction</h3>
-        <p>Creating robust mapless trajectory prediction systems and addressing uncertainty in online HD map construction.</p>
+        <p>Creating robust mapless trajectory prediction systems and addressing uncertainty in online HD map construction for safer autonomous navigation.</p>
     </div>
     
     <div class="interest-card">
-        <div class="interest-icon">🧠</div>
+        <span class="interest-icon">🧠</span>
         <h3>Brain-Computer Interface</h3>
-        <p>Exploring innovative BCI systems for real-time EEG-based control with applications in assistive robotics.</p>
+        <p>Exploring innovative BCI systems for real-time EEG-based control, with applications in assistive robotics and human-machine interaction.</p>
     </div>
 </div>
 
