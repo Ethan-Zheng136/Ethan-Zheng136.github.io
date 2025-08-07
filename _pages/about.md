@@ -171,13 +171,13 @@ Selected Projects
         <strong>Delving into Mapping Uncertainty for Mapless Trajectory Prediction</strong><br>
         <i style="font-size: 13px;">
             <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
-            <a target="_blank">zongzheng zhang</a>, 
+            <a target="_blank">Zongzheng Zhang</a>, 
             <a target="_blank">Xuchong Qiu</a>, 
             <a target="_blank">Boran Zhang</a>, 
-            <a herf="https://www.gilitschenski.org/igor", target="_blank">Igor Gilitschenski</a>,
+            <a href="https://www.gilitschenski.org/igor", target="_blank">Igor Gilitschenski</a>,
             <a target="_blank">Xunjiang Gu</a>, 
-            <a herf="https://hangzhaomit.github.io", target="_blank">Hang Zhao</a>, 
-            <a herf="https://sites.google.com/view/fromandto", target="_blank">Hao Zhao</a>, 
+            <a href="https://hangzhaomit.github.io", target="_blank">Hang Zhao</a>, 
+            <a href="https://sites.google.com/view/fromandto", target="_blank">Hao Zhao</a>, 
         </i><br>
         Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.<br>
         <b><i style="color:#83a1c7;">IROS 2025 &nbsp;</i></b>
