@@ -38,7 +38,7 @@ Research Assistant with [Prof. Xinggang Wang](https://xwcv.github.io/)
 
 <div style="border-left: 4px solid #e36209; padding-left: 20px; margin: 25px 0;">
 <h3 style="color: #e36209; margin-bottom: 8px;">PointHypE: Point Cloud Completion via Hyperbolic Embedding Learning</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • Tsinghua AI Industry Research Institute • CVPR 2026 (Under Review)</p>
+<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute • CVPR 2026 (Under Review)</p>
 <ul style="margin-left: 0; padding-left: 20px;">
 <li>Reproduced SVDFormer on PCN, ShapeNet-55, and ShapeNet-34 datasets with key metrics alignment</li>
 <li>Introduced <strong>HyperCD embedding</strong> to replace original CD in loss function using hyperbolic space</li>
