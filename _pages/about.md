@@ -174,10 +174,10 @@ Selected Projects
             <a target="_blank">Zongzheng Zhang</a>, 
             <a target="_blank">Xuchong Qiu</a>, 
             <a target="_blank">Boran Zhang</a>, 
-            <a href="https://www.gilitschenski.org/igor", target="_blank">Igor Gilitschenski</a>,
+            <a href="https://www.gilitschenski.org/igor" target="_blank">Igor Gilitschenski</a>,
             <a target="_blank">Xunjiang Gu</a>, 
-            <a href="https://hangzhaomit.github.io" target="_blank">Hang Zhao</a>, 
-            <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>, 
+            <a href="https://hangzhaomit.github.io" target="_blank">Hang Zhao</a>&dagger;, 
+            <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
         </i><br>
         Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.<br>
         <b><i style="color:#83a1c7;">IROS 2025 &nbsp;</i></b>
@@ -198,8 +198,8 @@ Selected Projects
             <a target="_blank">Zongzheng Zhang</a>, 
             <a target="_blank">Xinrun Li</a>, 
             <a target="_blank">Sizhe Zou</a>, 
-            <a href="https://hangzhaomit.github.io" target="_blank">Hang Zhao</a>, 
-            <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>, 
+            <a href="https://hangzhaomit.github.io" target="_blank">Hang Zhao</a>&dagger;, 
+            <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger; 
         </i><br>
         Propose neuro-symbolic algorithm combining symbolic reasoning with Chain-of-Thought VLMs, reducing inference time from >200s to 0.1-8s per frame with 5% accuracy improvement.<br>
         <b><i style="color:#83a1c7;">ICRA 2025 &nbsp;</i></b>
