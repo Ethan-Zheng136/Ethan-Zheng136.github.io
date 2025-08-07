@@ -156,7 +156,7 @@ Experience
         <div class="experience-info">
             <strong>Huazhong University of Science and Technology</strong>
             <div class="date">Sep 2022 – Jul 2026</div>
-            <div class="role">Research Assistant at <a href="https://xwcv.github.io/"><em>XWCV Lab</em></a></div>
+            <div class="role">Research Assistant at <a href="https://xwcv.github.io/"><em>XWCV</em></a></div>
         </div>
     </div>
 </div>
