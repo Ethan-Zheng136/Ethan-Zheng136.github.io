@@ -201,7 +201,7 @@ Selected Projects
             <a href="https://hangzhaomit.github.io" target="_blank">Hang Zhao</a>, 
             <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>, 
         </i><br>
-        Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.<br>
+        Propose neuro-symbolic algorithm combining symbolic reasoning with Chain-of-Thought VLMs, reducing inference time from >200s to 0.1-8s per frame with 5% accuracy improvement.<br>
         <b><i style="color:#83a1c7;">ICRA 2025 &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2503.07485"><em>[arXiv]</em></a>
         <!-- <a href="https://ethan-zheng136.github.io/Dev-Unc"><em>[project page]</em></a> -->
@@ -210,19 +210,6 @@ Selected Projects
 </div>
 </div>
 
-<div class="publication-card">
-    <img src="/images/publication/chameleon/overview.png" alt="Chameleon">
-    <div class="publication-content">
-        <div class="publication-title">Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</div>
-        <div class="publication-authors">Coauthor1*, Coauthor2*, <strong>Guantian Zheng</strong>, Senior Author†</div>
-        <div class="publication-description">Propose neuro-symbolic algorithm combining symbolic reasoning with Chain-of-Thought VLMs, reducing inference time from >200s to 0.1-8s per frame with 5% accuracy improvement.</div>
-        <div class="publication-venue">ICRA 2025 (Oral Presentation)</div>
-        <div class="publication-links">
-            <a href="https://arxiv.org/abs/2503.07485">[arxiv]</a>
-            <a href="https://github.com/XR-Lee/neural-symbolic">[code]</a>
-        </div>
-    </div>
-</div>
 
 Honors & Awards
 ---------------
