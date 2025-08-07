@@ -1,6 +1,9 @@
 ---
-layout: single
+permalink: /
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 <style>
@@ -350,21 +353,6 @@ author_profile: true
 
 I am an undergraduate (2022-2026) at **Huazhong University of Science and Technology**, *focusing on Autonomous Driving and Computer Vision*. I work at [AIR@Tsinghua](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).
 
-## Research Interests
-
-<div class="research-interests">
-    <div class="interest-card">
-        <span class="interest-icon">🤖</span>
-        <h3>Computer Vision & 3D Reconstruction</h3>
-        <p>Developing advanced algorithms for 3D scene understanding, point cloud completion, and visual perception systems for autonomous vehicles.</p>
-    </div>
-    
-    <div class="interest-card">
-        <span class="interest-icon">🚗</span>
-        <h3>Autonomous Driving & Trajectory Prediction</h3>
-        <p>Creating robust mapless trajectory prediction systems and addressing uncertainty in online HD map construction for safer autonomous navigation.</p>
-    </div>
-</div>
 
 <h2 class="news">News</h2>
 
