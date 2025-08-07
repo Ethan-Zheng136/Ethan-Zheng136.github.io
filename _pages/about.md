@@ -116,7 +116,10 @@ redirect_from:
 I am an undergraduate (2022-2026) at **Huazhong University of Science and Technology**, *focusing on Autonomous Driving and Computer Vision*. I work at [AIR@Tsinghua](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).
 
 
-<h2 class="news">News</h2>
+<!-- <h2 class="news">News</h2> -->
+
+News
+---------------
 
 <div class="news-list">
     <ul>
@@ -126,7 +129,8 @@ I am an undergraduate (2022-2026) at **Huazhong University of Science and Techno
     </ul>
 </div>
 
-## Experience
+Experience
+---------------
 
 <div class="experience-container">
     <div class="experience-card">
@@ -157,7 +161,8 @@ I am an undergraduate (2022-2026) at **Huazhong University of Science and Techno
     </div>
 </div>
 
-## Publications
+Publications
+---------------
 
 <div class="publication-card">
     <img src="/images/publication/uncertainty/teaser1.png" alt="Mapping Uncertainty">
@@ -187,7 +192,8 @@ I am an undergraduate (2022-2026) at **Huazhong University of Science and Techno
     </div>
 </div>
 
-## Honors & Awards
+Honors & Awards
+---------------
 
 <div class="awards-list">
     <ul>
