@@ -99,7 +99,7 @@
 
 <h1 class="main-heading">Hi there <img src="/images/Hi.gif" class="hi-gif" alt="Hi"> Welcome to my Homepage!</h1>
 
-I'm an undergraduate student at **Huazhong University of Science and Technology**, majoring in Integrated Circuit Design. Passionate about **Autonomous Driving**, I conduct cross-disciplinary research in **Computer Vision** and **AI/ML** at **Tsinghua University's AI Industry Research Institute**.
+I'm an undergraduate(2022-2026) at **Huazhong University of Science and Technology**, Passionate about **Autonomous Driving** and **Computer Vision**. I work at [AIRlab@Tsinghua](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto).
 
 ## 🎯 Research Interests
 
@@ -118,11 +118,6 @@ I'm an undergraduate student at **Huazhong University of Science and Technology*
         <p>Creating robust mapless trajectory prediction systems and addressing uncertainty in online HD map construction for safer autonomous navigation.</p>
     </div>
     
-    <div class="interest-card">
-        <span class="interest-icon">🧠</span>
-        <h3>Brain-Computer Interface</h3>
-        <p>Exploring innovative BCI systems for real-time EEG-based control, with applications in assistive robotics and human-machine interaction.</p>
-    </div>
 </div>
 
 ## 📰 News
