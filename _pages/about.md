@@ -8,152 +8,506 @@ redirect_from:
   - /about.html
 ---
 
-<!-- I'm an undergraduate student at **Huazhong University of Science and Technology**, majoring in Integrated Circuit Design. I conduct research in **Autonomous Driving**, **Computer Vision**, and **AI/ML** at **Tsinghua University's AI Industry Research Institute**. -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+    
+    body {
+        background-color: #FFFFFF;
+        font-family: 'Kalam', 'Arial Rounded MT Bold', 'Verdana', sans-serif;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    
+    .main-heading {
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        color: #ca6f6f;
+        font-size: 2.2rem;
+        margin: 2rem 0;
+    }
+    
+    .page__content {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    div.markdown-body a, a {
+        text-decoration: none !important;
+        color: #ca6f6f;
+        transition: all 0.3s ease;
+        font-weight: 500;
+    }
+    
+    div.markdown-body a:hover, a:hover {
+        color: #c71585;
+        text-decoration: underline;
+    }
+    
+    /* Experience/Education Cards */
+    .experience-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 20px;
+        margin: 2rem 0;
+    }
+    
+    .experience-card {
+        display: flex;
+        align-items: center;
+        background: #f9f9f9;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        transition: transform 0.3s, box-shadow 0.3s;
+        border: 2px solid transparent;
+    }
+    
+    .experience-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        border-color: #ca6f6f;
+    }
+    
+    .experience-logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+        border-radius: 8px;
+        object-fit: contain;
+    }
+    
+    .experience-info strong {
+        font-size: 1.1em;
+        color: #333;
+    }
+    
+    /* Publication/Project Cards */
+    .publication-card {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border: 2px solid #ddd;
+        border-radius: 12px;
+        background: #fff;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    
+    .publication-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    
+    .publication-card.featured {
+        border-color: #f5bba7;
+        background: linear-gradient(135deg, #fef5f1 0%, #fff 100%);
+        box-shadow: 0 4px 12px rgba(242, 166, 120, 0.2);
+        position: relative;
+    }
+    
+    .publication-card.featured::before {
+        content: "⭐ Featured";
+        position: absolute;
+        top: -8px;
+        right: 20px;
+        background: #ca6f6f;
+        color: white;
+        padding: 4px 12px;
+        border-radius: 12px;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    
+    .publication-card.featured:hover {
+        box-shadow: 0 8px 20px rgba(242, 166, 120, 0.4);
+    }
+    
+    .publication-card img {
+        width: 200px;
+        height: 120px;
+        margin-right: 20px;
+        border-radius: 8px;
+        object-fit: cover;
+        border: 1px solid #eee;
+    }
+    
+    .publication-card .content {
+        flex: 1;
+    }
+    
+    .publication-card strong {
+        font-size: 1.1rem;
+        color: #333;
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    .authors {
+        font-size: 13px;
+        color: #666;
+        margin-bottom: 8px;
+        line-height: 1.4;
+    }
+    
+    .description {
+        color: #555;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+    
+    .conference {
+        font-weight: bold;
+        color: #83a1c7;
+        margin-right: 10px;
+    }
+    
+    .links a {
+        margin-right: 10px;
+        font-size: 0.9rem;
+        color: #ca6f6f;
+        padding: 2px 8px;
+        border: 1px solid #ca6f6f;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+    }
+    
+    .links a:hover {
+        background: #ca6f6f;
+        color: white;
+    }
+    
+    /* Section Headers */
+    h2 {
+        color: #ca6f6f;
+        font-family: 'Kalam', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 700;
+        border-bottom: 3px solid #ca6f6f;
+        padding-bottom: 8px;
+        margin: 3rem 0 1.5rem 0;
+    }
+    
+    h3 {
+        color: #333;
+        font-family: 'Kalam', sans-serif;
+        font-weight: 600;
+    }
+    
+    /* News Section */
+    .news-section {
+        background: linear-gradient(135deg, #fef5f1 0%, #f9f9f9 100%);
+        border-radius: 12px;
+        padding: 20px;
+        margin: 2rem 0;
+        border-left: 4px solid #ca6f6f;
+    }
+    
+    .news-item {
+        margin-bottom: 15px;
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .news-item:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    
+    .news-date {
+        color: #ca6f6f;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+    
+    /* Project Status Badges */
+    .status-badge {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 12px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-left: 8px;
+    }
+    
+    .status-accepted {
+        background: #d4edda;
+        color: #155724;
+    }
+    
+    .status-oral {
+        background: #f8d7da;
+        color: #721c24;
+    }
+    
+    .status-under-review {
+        background: #fff3cd;
+        color: #856404;
+    }
+    
+    /* Research Interests */
+    .research-interests {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        margin: 2rem 0;
+    }
+    
+    .interest-card {
+        background: white;
+        border: 2px solid #f0f0f0;
+        border-radius: 12px;
+        padding: 25px;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    
+    .interest-card:hover {
+        border-color: #ca6f6f;
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(202, 111, 111, 0.1);
+    }
+    
+    .interest-icon {
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+    
+    .interest-card h3 {
+        color: #ca6f6f;
+        margin-bottom: 10px;
+    }
+    
+    /* Awards Grid */
+    .awards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin: 2rem 0;
+    }
+    
+    .award-item {
+        background: #f9f9f9;
+        border-radius: 8px;
+        padding: 15px;
+        text-align: center;
+        transition: transform 0.3s ease;
+        border: 2px solid transparent;
+    }
+    
+    .award-item:hover {
+        transform: translateY(-3px);
+        border-color: #ca6f6f;
+    }
+    
+    .award-icon {
+        font-size: 2rem;
+        margin-bottom: 8px;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .main-heading {
+            font-size: 1.8rem;
+        }
+        
+        .publication-card {
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .publication-card img {
+            width: 100%;
+            max-width: 300px;
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+        
+        .experience-card {
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .experience-logo {
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+    }
+</style>
+
+<h1 class="main-heading">Hi there 👋 Welcome to my Homepage!</h1>
+
 I'm an undergraduate student at **Huazhong University of Science and Technology**, majoring in Integrated Circuit Design. Passionate about **Autonomous Driving**, I conduct cross-disciplinary research in **Computer Vision** and **AI/ML** at **Tsinghua University's AI Industry Research Institute**.
 
-## 🔬 Research Interests
-- **Computer Vision** & **3D Reconstruction**
-- **Autonomous Driving** & **Trajectory Prediction** 
-- **Brain-Computer Interface**
+## 🎯 Research Interests
 
-## 🎓 Education & Research Experience
-
-**Westlake University** - [AutoLab](https://github.com/westlake-autolab)  
-Research Assistant • Advisor: [Prof. Kaicheng Yu](https://www.yukaicheng.cn/) • Jun 2025 - Present
-
-**Tsinghua University** - [AI Industry Research Institute](https://air.tsinghua.edu.cn/en/) (AIR)  
-Research Assistant • Advisor: [Prof. Hao Zhao](https://sites.google.com/view/fromandto) • Jun 2024 - Dec 2024  
-<!-- - Led trajectory prediction and lane topology projects resulting in 2 papers (ICRA 2025, IROS 2025) -->
-
-**Huazhong University of Science and Technology**  
-B.S. in [Integrated Circuit Design](https://ic.hust.edu.cn/) • 2022 - 2026  
-Research Assistant with [Prof. Xinggang Wang](https://xwcv.github.io/)
-
-## 📰 Recent News
-- **[Jan 2025]** 🎉 Paper "Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction" **accepted to ICRA 2025 (Oral Presentation)**
-- **[Jun 2025]** 🎉 Paper "Delving into Mapping Uncertainty for Mapless Trajectory Prediction" **accepted to IROS 2025**
-
-
-## 🎯 Current Projects
-
-<div style="border-left: 4px solid #e36209; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #e36209; margin-bottom: 8px;">PointHypE: Point Cloud Completion via Hyperbolic Embedding Learning</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute • CVPR 2026 (Under Review)</p>
-<ul style="margin-left: 0; padding-left: 20px;">
-<li>Reproduced SVDFormer on PCN, ShapeNet-55, and ShapeNet-34 datasets with key metrics alignment</li>
-<li>Introduced <strong>HyperCD embedding</strong> to replace original CD in loss function using hyperbolic space</li>
-<li>Replaced 3D backbone with <strong>PTv3</strong> using z-order and Hilbert curves for sequential features</li>
-<li>Significantly boosted processing speed and expanded receptive field</li>
-</ul>
+<div class="research-interests">
+    <div class="interest-card">
+        <div class="interest-icon">🤖</div>
+        <h3>Computer Vision & 3D Reconstruction</h3>
+        <p>Developing advanced algorithms for 3D scene understanding, point cloud completion, and visual perception systems.</p>
+    </div>
+    
+    <div class="interest-card">
+        <div class="interest-icon">🚗</div>
+        <h3>Autonomous Driving & Trajectory Prediction</h3>
+        <p>Creating robust mapless trajectory prediction systems and addressing uncertainty in online HD map construction.</p>
+    </div>
+    
+    <div class="interest-card">
+        <div class="interest-icon">🧠</div>
+        <h3>Brain-Computer Interface</h3>
+        <p>Exploring innovative BCI systems for real-time EEG-based control with applications in assistive robotics.</p>
+    </div>
 </div>
 
-<div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #0366d6; margin-bottom: 8px;">Delving into Mapping Uncertainty for Mapless Trajectory Prediction</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute • IROS 2025</p>
-<ul style="margin-left: 0; padding-left: 20px;">
-<li>Proposed lightweight <strong>Proprioceptive Scenario Gating</strong> module and <strong>Covariance-Based Map Uncertainty</strong> model</li>
-<li>Benchmarked four SOTA online map construction models (MapTR, MapTRv2, StreamMapNet) with HiVT and DenseTNT</li>
-<li>Achieved up to <strong>23.6% performance improvement</strong> over prior SOTA methods on nuScenes dataset</li>
-<li>Demonstrated <strong>10-30x faster inference speed</strong> for real-time deployment</li>
-</ul>
-<p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2507.18498" style="color: #0366d6;">[Paper]</a> <a href="https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction" style="color: #0366d6;">[Code]</a></p>
+## 📰 News
+
+<div class="news-section">
+    <div class="news-item">
+        <div class="news-date">[Jan 2025]</div>
+        <div>🎉 Paper <strong>"Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction"</strong> accepted to <strong>ICRA 2025 (Oral Presentation)</strong></div>
+    </div>
+    
+    <div class="news-item">
+        <div class="news-date">[Jul 2025]</div>
+        <div>🎉 Paper <strong>"Delving into Mapping Uncertainty for Mapless Trajectory Prediction"</strong> accepted to <strong>IROS 2025</strong> - Featured in CV君 media coverage!</div>
+    </div>
+    
+    <div class="news-item">
+        <div class="news-date">[Jun 2025]</div>
+        <div>🔬 Started new research position at <strong>Westlake University AutoLab</strong> under Prof. Kaicheng Yu</div>
+    </div>
 </div>
 
-<div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #0366d6; margin-bottom: 8px;">Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • Tsinghua AI Industry Research Institute • ICRA 2025 (Oral Presentation)</p>
-<ul style="margin-left: 0; padding-left: 20px;">
-<li>Developed neuro-symbolic algorithm combining symbolic reasoning with <strong>Chain-of-Thought VLMs</strong></li>
-<li>Designed <strong>program synthesis framework</strong> generating executable Python code from few-shot prompts</li>
-<li>Reduced inference time from <strong>>200s to 0.1-8s per frame</strong> with 5% accuracy improvement</li>
-<li>Achieved consistent improvements on OpenLane-V2 dataset in 3-shot settings</li>
-</ul>
-<p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2503.07485" style="color: #0366d6;">[Paper]</a> <a href="https://github.com/XR-Lee/neural-symbolic" style="color: #0366d6;">[Code]</a></p>
+## 🎓 Experience
+
+<div class="experience-container">
+    <div class="experience-card">
+        <img src="/images/westlake-logo.png" alt="Westlake University logo" class="experience-logo">
+        <div class="experience-info">
+            <strong>Westlake University - AutoLab</strong><br>
+            Jun 2025 - Present<br>
+            Research Assistant with <a href="https://www.yukaicheng.cn/"><em>Prof. Kaicheng Yu</em></a>
+        </div>
+    </div>
+
+    <div class="experience-card">
+        <img src="/images/tsinghua-logo.png" alt="Tsinghua University logo" class="experience-logo">
+        <div class="experience-info">
+            <strong>Tsinghua University - AIR</strong><br>
+            Jun 2024 - Dec 2024<br>
+            Research Assistant at <a href="https://air.tsinghua.edu.cn/en/"><em>AI Industry Research Institute</em></a>
+        </div>
+    </div>
+
+    <div class="experience-card">
+        <img src="/images/hust-logo.png" alt="HUST logo" class="experience-logo">
+        <div class="experience-info">
+            <strong>Huazhong University of Science and Technology</strong><br>
+            Sep 2022 - Jul 2026<br>
+            B.S. in Integrated Circuit Design, RA with <a href="https://xwcv.github.io/"><em>Prof. Xinggang Wang</em></a>
+        </div>
+    </div>
 </div>
 
-<div style="border-left: 4px solid #6f42c1; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #6f42c1; margin-bottom: 8px;">Brain-Controlled Mechanical Arm</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • National Innovation Program (National-level) • Completed</p>
-<ul style="margin-left: 0; padding-left: 20px;">
-<li>Developed innovative <strong>brain-computer interface system</strong> for real-time EEG-based robotic arm control</li>
-<li>Designed EEG cap and improved algorithms for enhanced accuracy and response speed</li>
-<li>Led front-end signal processing and coordinated integration of both systems</li>
-<li>Recruited volunteers and tested accuracy of brain-controlled movements</li>
-</ul>
+## 📚 Publications
+
+<div class="publication-card featured">
+    <div style="display: flex; align-items: center; width: 100%;">
+        <img src="/images/publication/uncertainty/teaser1.png" alt="Uncertainty" style="width: 200px; height: 120px; margin-right: 20px;">
+        <div class="content">
+            <strong>Delving into Mapping Uncertainty for Mapless Trajectory Prediction</strong><br>
+            <div class="authors">
+                Zongzheng Zhang, Xuchong Qiu, Boran Zhang, <strong>Guantian Zheng</strong>, et al.
+            </div>
+            <div class="description">
+                Investigated HD map uncertainty effects on trajectory prediction, proposing Proprioceptive Scenario Gating and achieving 23.6% performance improvement.
+            </div>
+            <span class="conference">IROS 2025</span>
+            <span class="status-badge status-accepted">✓ Accepted</span><br>
+            <div class="links">
+                <a href="https://arxiv.org/abs/2507.18498">[Paper]</a>
+                <a href="https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction">[Code]</a>
+                <a href="https://ethan-zheng136.github.io/Dev-Unc/">[Website]</a>
+            </div>
+        </div>
+    </div>
 </div>
 
-<!-- <div style="border-left: 4px solid #e36209; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #e36209; margin-bottom: 8px;">Enhanced Point Cloud Reconstruction with PTv3 and HyperCD</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute</p>
-<ul style="margin-left: 0; padding-left: 20px;">
-<li>Reproduced SVDFormer on PCN, ShapeNet-55, and ShapeNet-34 datasets with key metrics alignment</li>
-<li>Introduced <strong>HyperCD</strong> to replace original CD in loss function using hyperbolic space</li>
-<li>Replaced 3D backbone with <strong>PTv3</strong> using z-order and Hilbert curves for sequential features</li>
-<li>Significantly boosted processing speed and expanded receptive field</li>
-</ul>
+<div class="publication-card featured">
+    <div style="display: flex; align-items: center; width: 100%;">
+        <img src="/images/publication/chameleon/overview.png" alt="Chameleon" style="width: 200px; height: 120px; margin-right: 20px;">
+        <div class="content">
+            <strong>Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</strong><br>
+            <div class="authors">
+                Coauthor1, Coauthor2, <strong>Guantian Zheng</strong>, Senior Author
+            </div>
+            <div class="description">
+                Developed neuro-symbolic algorithm combining symbolic reasoning with Chain-of-Thought VLMs, reducing inference time from >200s to 0.1-8s per frame.
+            </div>
+            <span class="conference">ICRA 2025</span>
+            <span class="status-badge status-oral">🎤 Oral</span><br>
+            <div class="links">
+                <a href="https://arxiv.org/abs/2503.07485">[Paper]</a>
+                <a href="https://github.com/XR-Lee/neural-symbolic">[Code]</a>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #0366d6; margin-bottom: 8px;">[IROS2025]Delving into Mapping Uncertainty for Mapless Trajectory Prediction</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • Tsinghua AI Industry Research Institute</p>
-<ul style="margin-left: 0; padding-left: 20px;">
-<li>Proposed lightweight <strong>Proprioceptive Scenario Gating</strong> module and <strong>Covariance-Based Map Uncertainty</strong> model</li>
-<li>Benchmarked four SOTA online map construction models (MapTR, MapTRv2, StreamMapNet) with HiVT and DenseTNT</li>
-<li>Achieved up to <strong>23.6% performance improvement</strong> over prior SOTA methods on nuScenes dataset</li>
-<li>Demonstrated <strong>10-30x faster inference speed</strong> for real-time deployment</li>
-</ul>
-<p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2507.18498" style="color: #0366d6;">[Paper]</a> <a href="https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction" style="color: #0366d6;">[Code]</a></p>
+<div class="publication-card">
+    <div style="display: flex; align-items: center; width: 100%;">
+        <img src="/images/pointhype-placeholder.png" alt="PointHypE" style="width: 200px; height: 120px; margin-right: 20px;">
+        <div class="content">
+            <strong>PointHypE: Point Cloud Completion via Hyperbolic Embedding Learning</strong><br>
+            <div class="authors">
+                <strong>Guantian Zheng</strong>, Coauthors
+            </div>
+            <div class="description">
+                Introducing HyperCD embedding in hyperbolic space to replace traditional CD loss, with PTv3 backbone for enhanced sequential features.
+            </div>
+            <span class="conference">CVPR 2026</span>
+            <span class="status-badge status-under-review">📝 Under Review</span><br>
+            <div class="links">
+                <a href="#">[Coming Soon]</a>
+            </div>
+        </div>
+    </div>
 </div>
-
-<div style="border-left: 4px solid #0366d6; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #0366d6; margin-bottom: 8px;">[ICRA2025 Oral]Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Member</strong> • Tsinghua AI Industry Research Institute</p>
-<ul style="margin-left: 0; padding-left: 20px;">
-<li>Developed neuro-symbolic algorithm combining symbolic reasoning with <strong>Chain-of-Thought VLMs</strong></li>
-<li>Designed <strong>program synthesis framework</strong> generating executable Python code from few-shot prompts</li>
-<li>Reduced inference time from <strong>>200s to 0.1-8s per frame</strong> with 5% accuracy improvement</li>
-<li>Achieved consistent improvements on OpenLane-V2 dataset in 3-shot settings</li>
-</ul>
-<p style="margin-top: 8px;"><a href="https://arxiv.org/abs/2503.07485" style="color: #0366d6;">[Paper]</a> <a href="https://github.com/XR-Lee/neural-symbolic" style="color: #0366d6;">[Code]</a></p>
-</div>
-
-<div style="border-left: 4px solid #6f42c1; padding-left: 20px; margin: 25px 0;">
-<h3 style="color: #6f42c1; margin-bottom: 8px;">Brain-Controlled Mechanical Arm</h3>
-<p style="color: #666; font-size: 0.9rem; margin-bottom: 12px;"><strong>Team Leader</strong> • National Innovation Program (National-level)</p>
-<ul style="margin-left: 0; padding-left: 20px;">
-<li>Developed innovative <strong>brain-computer interface system</strong> for real-time EEG-based robotic arm control</li>
-<li>Designed EEG cap and improved algorithms for enhanced accuracy and response speed</li>
-<li>Led front-end signal processing and coordinated integration of both systems</li>
-<li>Recruited volunteers and tested accuracy of brain-controlled movements</li>
-</ul>
-</div> -->
-
-
-<!-- ### **Delving into Mapping Uncertainty for Mapless Trajectory Prediction** (Team Leader)
-- Proposed **Proprioceptive Scenario Gating** module and **Covariance-Based Map Uncertainty** model
-- Achieved **23.6% performance improvement** over SOTA methods on nuScenes dataset  
-- Benchmarked MapTR, MapTRv2, StreamMapNet with HiVT and DenseTNT models
-
-### **Chameleon: Fast-slow Neuro-symbolic Lane Topology** (Team Member)  
-- Developed neuro-symbolic algorithm with **Chain-of-Thought VLMs** for lane topology extraction
-- Reduced inference time from **>200s to 0.1-8s per frame**
-- Achieved **5% accuracy improvement** on OpenLane-V2 dataset
-
-### **Enhanced Point Cloud Reconstruction**
-- Enhanced SVDFormer with PTv3 and HyperCD for better processing speed and receptive field
-
-### **Brain-Controlled Mechanical Arm** (Team Leader)
-- Led EEG signal processing and mechanical arm integration for precise brain-computer interface control -->
 
 ## 🏆 Honors & Awards
-- **Academic Excellence Scholarship** (2025)
-- **Self-Reliance Scholarship** (2024)
-- **Academic Excellence Scholarship** (2023)
-- **National Math Competition - 2nd Prize** (2024)
 
-<!-- ## 📚 Education
-- **B.S. in Integrated Circuit Design** | Huazhong University of Science and Technology (2022-2026)
-- **Summer Research Program** | Tsinghua University AI Industry Research Institute (2024) -->
+<div class="awards-grid">
+    <div class="award-item">
+        <div class="award-icon">🏆</div>
+        <strong>Academic Excellence Scholarship</strong><br>
+        <small>2025, 2023</small>
+    </div>
+    
+    <div class="award-item">
+        <div class="award-icon">💪</div>
+        <strong>Self-Reliance Scholarship</strong><br>
+        <small>2024</small>
+    </div>
+    
+    <div class="award-item">
+        <div class="award-icon">🥈</div>
+        <strong>National Math Competition</strong><br>
+        <small>2nd Prize, 2024</small>
+    </div>
+</div>
 
 ---
-*I'm actively seeking research opportunities in  Autonomous Driving and Computer Vision for graduate studies.*
+
+<div style="text-align: center; margin: 3rem 0; padding: 2rem; background: linear-gradient(135deg, #fef5f1 0%, #f9f9f9 100%); border-radius: 12px;">
+    <h3 style="color: #ca6f6f;">🚀 Looking Ahead</h3>
+    <p>I'm actively seeking <strong>research opportunities in Autonomous Driving and Computer Vision</strong> for graduate studies. Passionate about pushing the boundaries of AI/ML applications in real-world scenarios.</p>
+    
+    <div style="margin-top: 1.5rem;">
+        <a href="/files/cv.pdf" style="background: #ca6f6f; color: white; padding: 10px 20px; border-radius: 8px; margin: 0 10px; text-decoration: none;">📄 Download CV</a>
+        <a href="/publications/" style="background: #83a1c7; color: white; padding: 10px 20px; border-radius: 8px; margin: 0 10px; text-decoration: none;">📚 View Publications</a>
+    </div>
+</div>
