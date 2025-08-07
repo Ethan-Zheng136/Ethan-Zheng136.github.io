@@ -166,7 +166,7 @@ Selected Projects
 
 <div class="publication-card featured">
  <div style="display: flex; align-items: center;">
-    <img src="images/publication/uncertainty/overview.png" alt="DSP" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/publication/uncertainty/overview.png" alt="Uncertainty" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Delving into Mapping Uncertainty for Mapless Trajectory Prediction</strong><br>
         <i style="font-size: 13px;">
@@ -188,18 +188,26 @@ Selected Projects
 </div>
 </div>
 
-<div class="publication-card">
-    <img src="/images/publication/uncertainty/teaser1.png" alt="Mapping Uncertainty">
-    <div class="publication-content">
-        <div class="publication-title">Delving into Mapping Uncertainty for Mapless Trajectory Prediction</div>
-        <div class="publication-description">Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.</div>
-        <div class="publication-venue">IROS 2025</div>
-        <div class="publication-links">
-            <a href="https://arxiv.org/abs/2507.18498">[arxiv]</a>
-            <a href="https://ethan-zheng136.github.io/Dev-Unc/">[website]</a>
-            <a href="https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction">[code]</a>
-        </div>
+<div class="publication-card featured">
+ <div style="display: flex; align-items: center;">
+    <img src="images/publication/chameleon/overview.png" alt="Chameleon" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>Delving into Mapping Uncertainty for Mapless Trajectory Prediction</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
+            <a target="_blank">Zongzheng Zhang</a>, 
+            <a target="_blank">Xinrun Li</a>, 
+            <a target="_blank">Sizhe Zou</a>, 
+            <a href="https://hangzhaomit.github.io", target="_blank">Hang Zhao</a>, 
+            <a href="https://sites.google.com/view/fromandto", target="_blank">Hao Zhao</a>, 
+        </i><br>
+        Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.<br>
+        <b><i style="color:#83a1c7;">ICRA 2025 &nbsp;</i></b>
+        <a href="https://arxiv.org/abs/2503.07485"><em>[arXiv]</em></a>
+        <!-- <a href="https://ethan-zheng136.github.io/Dev-Unc"><em>[project page]</em></a> -->
+        <a href="https://github.com/XR-Lee/neural-symbolic"><em>[code]</em></a>
     </div>
+</div>
 </div>
 
 <div class="publication-card">
