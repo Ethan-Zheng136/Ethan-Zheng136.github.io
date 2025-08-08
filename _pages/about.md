@@ -166,21 +166,21 @@ Selected Projects
 ---------------
 
 <div class="publication-card">
- <div style="display: flex; align-items: center;">
-    <img src="images/publication/uncertainty/overview.png" alt="Uncertainty" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/GAP.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>TrafficGenBench: A Generative Benchmark for Probing the Reasoning Limits of AI Agents in Complex Traffic
 Scenarios</strong><br>
-        <i style="font-size: 13px;">
-            <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
-            <a href="https://estrellama.github.io" target="_blank">Enhui Ma</a>, 
-            <a href="https://www.yukaicheng.cn/" target="_blank">Kaicheng Yu</a>&dagger;
-        </i><br>
-        Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.<br>
-        <b><i style="color:#83a1c7;">CVPR 2026 (Plan to Submit) &nbsp;</i></b>
+       <i style="font-size: 13px;">
+    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
+    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
+    </i><br>
+    A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
+    <b><i style="color:#83a1c7;">CVPR 2026 (Plan to Submit) &nbsp;</i></b>
+      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
 </div>
-</div>
+
 
 <div class="publication-card featured">
  <div style="display: flex; align-items: center;">
