@@ -206,7 +206,7 @@ Scenarios</strong><br>
     <a href="https://estrellama.github.io" target="_blank">Boran Zhang</a>, 
     <a href="https://www.yukaicheng.cn/" target="_blank">Haiyang Xu</a>&dagger;
     </i><br>
-    A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
+    Introduce a <b>HyperChamfer Embedding</b> that injects global geometric structure into the refinement stage, enabling structure-aware completion without explicit structural loss. Achieves significant improvements on ShapeNet-PCN benchmark.<br>
     <b><i style="color:#83a1c7;">ICRA 2026 (Plan to Submit) &nbsp;</i></b>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
