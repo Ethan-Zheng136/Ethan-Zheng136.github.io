@@ -165,7 +165,7 @@ Experience
 Selected Projects
 ---------------
 
-<div class="publication-card featured">
+<div class="publication-card">
  <div style="display: flex; align-items: center;">
     <img src="images/publication/uncertainty/overview.png" alt="Uncertainty" width="200" height="100" style="margin-right: 20px;">
     <div>
