@@ -182,6 +182,22 @@ Selected Projects
 </div>
 
 <div class="publication-card">
+    <img src="images/GAP.png" alt="OpenlaneV3" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>Openlane-V3</strong><br>
+       <i style="font-size: 13px;">
+    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
+    <a target="_blank">Zongzheng Zhang</a>, 
+    <a target="_blank">Jijun Wang</a>,
+    <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
+    </i><br>
+    A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
+    <b><i style="color:#83a1c7;">CVPR 2026 (Plan to Submit) &nbsp;</i></b>
+      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
+    </div>
+</div>
+
+<div class="publication-card">
     <img src="images/publication/RuleCraft/craft.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>TrafficGenBench: A Generative Benchmark for Probing the Reasoning Limits of AI Agents in Complex Traffic
