@@ -265,9 +265,8 @@ Scenarios</strong><br>
     <div>
         <strong>Brain-Controlled Robotic Arm</strong><br>
        <i style="font-size: 13px;">
-    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
-    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
-    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
+    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
+    <a href="https://ieeexplore.ieee.org/author/37086347850" target="_blank">Dawei Ye</a>&dagger;, 
     </i><br>
     Achieved real-time recognition and control of a single hand with five degrees of freedom, with future plans to enable assisting paralyzed individuals in daily tasks such as eating, gripping, and writing. <br>
     <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
