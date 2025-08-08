@@ -286,8 +286,6 @@ Scenarios</strong><br>
     <a href="https://ieeexplore.ieee.org/author/37086347850" target="_blank">Dawei Ye</a>&dagger;, 
     </i><br>
     Achieved real-time recognition and control of a single hand with five degrees of freedom, with future plans to enable assisting paralyzed individuals in daily tasks such as eating, gripping, and writing. <br>
-    <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
-      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
 </div>
 
