@@ -166,7 +166,7 @@ Selected Projects
 ---------------
 
 <div class="publication-card">
-    <img src="images/GAP.png" alt="OpenlaneV3" width="200" height="100" style="margin-right: 20px;">
+    <img src="images" alt="OpenlaneV3" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Openlane-V3</strong><br>
        <i style="font-size: 13px;">
@@ -277,11 +277,12 @@ Scenarios</strong><br>
 </div>
 
 <div class="publication-card">
-    <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/GAP.png" alt="Brain" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Brain-Controlled Robotic Arm</strong><br>
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
+    <a target="_blank">Jincheng Yang</a>,
     <a href="https://ieeexplore.ieee.org/author/37086347850" target="_blank">Dawei Ye</a>&dagger;, 
     </i><br>
     Achieved real-time recognition and control of a single hand with five degrees of freedom, with future plans to enable assisting paralyzed individuals in daily tasks such as eating, gripping, and writing. <br>
