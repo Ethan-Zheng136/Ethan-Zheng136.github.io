@@ -182,7 +182,7 @@ Selected Projects
 </div>
 
 <div class="publication-card">
-    <img src="images/RuleCraft/craft.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/publication/RuleCraft/craft.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>TrafficGenBench: A Generative Benchmark for Probing the Reasoning Limits of AI Agents in Complex Traffic
 Scenarios</strong><br>
@@ -198,7 +198,7 @@ Scenarios</strong><br>
 </div>
 
 <div class="publication-card">
-    <img src="images/PointHypE/craft.png" alt="PointHypE" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/publication/PointHypE/craft.png" alt="PointHypE" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>PointHypE: Point Cloud Completion via Hyperbolic Embedding Learning</strong><br>
        <i style="font-size: 13px;">
