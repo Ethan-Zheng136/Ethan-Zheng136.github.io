@@ -263,13 +263,13 @@ Scenarios</strong><br>
 <div class="publication-card">
     <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
+        <strong>Brain-Controlled Robotic Arm</strong><br>
        <i style="font-size: 13px;">
     <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
     <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
     </i><br>
-    A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
+    Achieved real-time recognition and control of a single hand with five degrees of freedom, with future plans to enable assisting paralyzed individuals in daily tasks such as eating, gripping, and writing. <br>
     <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
