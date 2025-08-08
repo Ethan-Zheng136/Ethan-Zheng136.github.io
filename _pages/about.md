@@ -191,7 +191,7 @@ Selected Projects
     <a target="_blank">Jijun Wang</a>,
     <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
     </i><br>
-    A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
+    OpenLane-V3 is an extended version of the OpenLaneV2 benchmark, integrating additional modalities including 3D traffic light and traffic sign annotations with semantic and positional information. It aims to evaluate and demonstrate the impact of multi-modal cues on autonomous driving perception and planning tasks. <br>
     <b><i style="color:#83a1c7;">CVPR 2026 (Plan to Submit) &nbsp;</i></b>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
