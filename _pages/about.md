@@ -181,21 +181,6 @@ Selected Projects
 </div>
 
 <div class="publication-card">
-    <img src="images/GAP.png" alt="OpenlaneV3" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>Openlane-V3</strong><br>
-       <i style="font-size: 13px;">
-    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
-    <a target="_blank">Zongzheng Zhang</a>, 
-    <a target="_blank">Jijun Wang</a>,
-    <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
-    </i><br>
-    OpenLane-V3 is an extended version of the OpenLaneV2 benchmark, integrating additional modalities including 3D traffic light and traffic sign annotations with semantic and positional information. It aims to evaluate and demonstrate the impact of multi-modal cues on autonomous driving perception and planning tasks. <br>
-    <b><i style="color:#83a1c7;">CVPR 2026 (Plan to Submit) &nbsp;</i></b>
-    </div>
-</div>
-
-<div class="publication-card">
     <img src="images/publication/RuleCraft/craft.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>TrafficGenBench: A Generative Benchmark for Probing the Reasoning Limits of AI Agents in Complex Traffic
@@ -206,6 +191,21 @@ Scenarios</strong><br>
     <a href="https://www.yukaicheng.cn/" target="_blank">Kaicheng Yu</a>&dagger;
     </i><br>
     A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
+    <b><i style="color:#83a1c7;">CVPR 2026 (Plan to Submit) &nbsp;</i></b>
+    </div>
+</div>
+
+<div class="publication-card">
+    <img src="images/publication/OpenlaneV3/craft.png" alt="OpenlaneV3" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>Openlane-V3</strong><br>
+       <i style="font-size: 13px;">
+    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
+    <a target="_blank">Zongzheng Zhang</a>, 
+    <a target="_blank">Jijun Wang</a>,
+    <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
+    </i><br>
+    OpenLane-V3 is an extended version of the OpenLaneV2 benchmark, integrating additional modalities including 3D traffic light and traffic sign annotations with semantic and positional information. It aims to evaluate and demonstrate the impact of multi-modal cues on autonomous driving perception and planning tasks. <br>
     <b><i style="color:#83a1c7;">CVPR 2026 (Plan to Submit) &nbsp;</i></b>
     </div>
 </div>
