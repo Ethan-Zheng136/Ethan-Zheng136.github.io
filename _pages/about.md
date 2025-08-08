@@ -177,7 +177,7 @@ Scenarios</strong><br>
             <a href="https://www.yukaicheng.cn/" target="_blank">Kaicheng Yu</a>&dagger;
         </i><br>
         Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.<br>
-        <b><i style="color:#83a1c7;">CVPR 2026 (plan to submit) &nbsp;</i></b>
+        <b><i style="color:#83a1c7;">CVPR 2026 (Plan to Submit) &nbsp;</i></b>
     </div>
 </div>
 </div>
