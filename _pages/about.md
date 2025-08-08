@@ -292,7 +292,7 @@ Honors & Awards
 <div class="awards-list">
     <ul>
         <li><strong>Academic Excellence Scholarship</strong> (2025)</li>
-        <li><strong>Self-Motivation and Diligence</strong> (2024)</li>
+        <li><strong>Self-Motivation and Diligence Scholarship</strong> (2024)</li>
         <li><strong>Academic Excellence Scholarship</strong> (2023)</li>
         <li><strong>National Math Competition - 2nd Prize</strong> (2022)</li>
     </ul>
