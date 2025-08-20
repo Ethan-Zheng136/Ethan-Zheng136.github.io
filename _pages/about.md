@@ -166,9 +166,9 @@ Selected Projects
 ---------------
 
 <div class="publication-card">
-    <img src="images" alt="OpenlaneV3" width="200" height="100" style="margin-right: 20px;">
+    <img src="images" alt="UMPE" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>Openlane-V3</strong><br>
+        <strong>UMPE</strong><br>
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
     <a target="_blank">Zongzheng Zhang</a>, 
