@@ -166,7 +166,7 @@ Selected Projects
 ---------------
 
 <div class="publication-card">
-    <img src="images/publication/brain/bci.png" alt="UMPE" width="200" height="100" style="margin-right: 20px;">
+    <img src="umpe" alt="UMPE" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>UMPE</strong><br>
        <i style="font-size: 13px;">
@@ -274,7 +274,7 @@ Scenarios</strong><br>
 </div>
 
 <div class="publication-card">
-    <img src="images/GAP.png" alt="Brain" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/publication/brain/bci.png" alt="Brain" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Brain-Controlled Robotic Arm</strong><br>
        <i style="font-size: 13px;">
