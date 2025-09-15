@@ -176,7 +176,7 @@ Selected Projects
     <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
     </i><br>
     A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
-    <b><i style="color:#83a1c7;">CVPR 2026 (Plan to Submit) &nbsp;</i></b>
+    <b><i style="color:#83a1c7;">ICRA 2026 (Submit for consideration) &nbsp;</i></b>
     </div>
 </div>
 
@@ -217,7 +217,7 @@ Scenarios</strong><br>
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
     <a href="https://estrellama.github.io" target="_blank">Boran Zhang</a>, 
-    <a href="https://www.yukaicheng.cn/" target="_blank">Haiyang Xu</a>&dagger;
+    <a href="https://www.yukaicheng.cn/" target="_blank">Haiyang Xu</a>;
     </i><br>
     Introduce a <b>HyperChamfer Embedding</b> that injects global geometric structure into the refinement stage, enabling structure-aware completion without explicit structural loss. Achieves significant improvements on ShapeNet-PCN benchmark.<br>
     <b><i style="color:#83a1c7;">ICRA 2026 (Plan to Submit) &nbsp;</i></b>
