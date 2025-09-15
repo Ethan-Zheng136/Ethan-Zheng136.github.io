@@ -211,7 +211,7 @@ Scenarios</strong><br>
 </div>
 
 <div class="publication-card">
-    <img src="images/publication/PointHypE/craft.png" alt="PointHypE" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/publication/PointHypE/svdformer.png" alt="PointHypE" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>PointHypE: Point Cloud Completion via Hyperbolic Embedding Learning</strong><br>
        <i style="font-size: 13px;">
