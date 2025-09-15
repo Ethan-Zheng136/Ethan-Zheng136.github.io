@@ -175,7 +175,7 @@ Selected Projects
     <a target="_blank">Jijun Wang</a>,
     <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
     </i><br>
-    A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
+    <br>
     <b><i style="color:#83a1c7;">ICRA 2026 (Submit for consideration) &nbsp;</i></b>
     </div>
 </div>
@@ -190,7 +190,7 @@ Scenarios</strong><br>
     <a href="https://estrellama.github.io" target="_blank">Enhui Ma</a>, 
     <a href="https://www.yukaicheng.cn/" target="_blank">Kaicheng Yu</a>&dagger;
     </i><br>
-    A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
+    <br>
     <b><i style="color:#83a1c7;">CVPR 2026 (Plan to Submit) &nbsp;</i></b>
     </div>
 </div>
