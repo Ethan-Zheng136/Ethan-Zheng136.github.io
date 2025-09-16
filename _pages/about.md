@@ -171,11 +171,11 @@ Selected Projects
         <strong>UMPE</strong><br>
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
-    <a target="_blank">Zongzheng Zhang</a>, 
+    <!-- <a target="_blank">Zongzheng Zhang</a>, 
     <a target="_blank">Jijun Wang</a>,
-    <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
+    <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger; -->
     </i><br>
-    <br>
+    UMPE addresses the underutilization of heterogeneous map priors in autonomous driving through a unified dual-branch encoder that seamlessly integrates HD/SD vector maps, satellite imagery, and rasterized SD maps with BEV features. The system achieves significant improvements in mapping (MapTRv2: +5.9 mAP, MapQR: +5.3 mAP) and planning (trajectory error: -42%, collision rate: -45%) while maintaining robustness across different prior availability scenarios.<br>
     <b><i style="color:#83a1c7;">ICRA 2026 (Submit for consideration) &nbsp;</i></b>
     </div>
 </div>
