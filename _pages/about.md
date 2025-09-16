@@ -168,7 +168,7 @@ Selected Projects
 <div class="publication-card">
     <img src="images/publication/umpe/pipeline.png" alt="UMPE" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>UMPE</strong><br>
+        <strong>UMPE: Unified Map Prior Encoder for Mapping and Planning</strong><br>
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
     <!-- <a target="_blank">Zongzheng Zhang</a>, 
