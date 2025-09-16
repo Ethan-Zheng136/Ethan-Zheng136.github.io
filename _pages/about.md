@@ -227,7 +227,7 @@ Scenarios</strong><br>
 
 <div class="publication-card featured">
  <div style="display: flex; align-items: center;">
-    <img src="images/publication/uncertainty/example.png" alt="Uncertainty" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/publication/uncertainty/overview.png" alt="Uncertainty" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Delving into Mapping Uncertainty for Mapless Trajectory Prediction</strong><br>
         <i style="font-size: 13px;">
