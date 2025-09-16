@@ -227,7 +227,7 @@ Scenarios</strong><br>
 
 <div class="publication-card featured">
  <div style="display: flex; align-items: center;">
-    <img src="images/publication/uncertainty/overview.png" alt="Uncertainty" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/publication/uncertainty/example.png" alt="Uncertainty" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Delving into Mapping Uncertainty for Mapless Trajectory Prediction</strong><br>
         <i style="font-size: 13px;">
@@ -253,7 +253,7 @@ Scenarios</strong><br>
  <div style="display: flex; align-items: center;">
     <img src="images/publication/chameleon/overview.png" alt="Chameleon" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>Delving into Mapping Uncertainty for Mapless Trajectory Prediction</strong><br>
+        <strong>Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</strong><br>
         <i style="font-size: 13px;">
             <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
             <a target="_blank">Zongzheng Zhang</a>, 
