@@ -177,6 +177,7 @@ Selected Projects
     </i><br>
     UMPE addresses the underutilization of heterogeneous map priors in autonomous driving through a unified dual-branch encoder that integrates HD/SD vector maps, satellite imagery, and rasterized SD maps with BEV features. It achieves significant improvements in both mapping (+5.9 mAP on MapTRv2) and planning (42% trajectory error reduction) while maintaining robustness across different prior availability scenarios.<br>
     <b><i style="color:#83a1c7;">ICRA 2026 (Submit for consideration) &nbsp;</i></b>
+    <a href="https://anonymous.4open.science/r/UMPE/"><em>[code]</em></a>
     </div>
 </div>
 
