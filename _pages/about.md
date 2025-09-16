@@ -166,7 +166,7 @@ Selected Projects
 ---------------
 
 <div class="publication-card">
-    <img src="umpe" alt="UMPE" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/publication/umpe/pipeline.png" alt="UMPE" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>UMPE</strong><br>
        <i style="font-size: 13px;">
