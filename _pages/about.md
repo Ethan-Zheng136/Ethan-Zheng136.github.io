@@ -220,8 +220,8 @@ Scenarios</strong><br>
     <a href="https://www.yukaicheng.cn/" target="_blank">Haiyang Xu</a>;
     </i><br>
     Introduce a <b>HyperChamfer Embedding</b> that injects global geometric structure into the refinement stage, enabling structure-aware completion without explicit structural loss. Achieves significant improvements on ShapeNet-PCN benchmark.<br>
-    <b><i style="color:#83a1c7;">ICRA 2026 (Plan to Submit) &nbsp;</i></b>
-      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
+    <!-- <b><i style="color:#83a1c7;">ICRA 2026 (Plan to Submit) &nbsp;</i></b>
+      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a> -->
     </div>
 </div>
 
