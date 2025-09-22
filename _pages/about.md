@@ -211,20 +211,6 @@ Scenarios</strong><br>
     </div>
 </div>
 
-<div class="publication-card">
-    <img src="images/publication/PointHypE/svdformer.jpg" alt="PointHypE" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>Enhanced Point Cloud Reconstruction with PTv3 and Dual Hyper in SVDFormer</strong><br>
-       <i style="font-size: 13px;">
-    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
-    <a href="https://estrellama.github.io" target="_blank">Boran Zhang</a>, 
-    <a href="https://www.yukaicheng.cn/" target="_blank">Haiyang Xu</a>,
-    </i><br>
-    Proposed a HyperChamfer Embedding with a dual-hypernetwork architecture to inject global geometric structure into refinement, and integrated PTv3 backbone for efficient acceleration. Achieved structure-aware completion and a 17% improvement on ShapeNet-55, while maintaining fast training and inference.<br>
-    <!-- <b><i style="color:#83a1c7;">ICRA 2026 (Plan to Submit) &nbsp;</i></b>
-      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a> -->
-    </div>
-</div>
 
 <div class="publication-card featured">
  <div style="display: flex; align-items: center;">
@@ -272,6 +258,21 @@ Scenarios</strong><br>
         <a href="https://github.com/XR-Lee/neural-symbolic"><em>[code]</em></a>
     </div>
 </div>
+</div>
+
+<div class="publication-card">
+    <img src="images/publication/PointHypE/svdformer.jpg" alt="PointHypE" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>Enhanced Point Cloud Reconstruction with PTv3 and Dual Hyper in SVDFormer</strong><br>
+       <i style="font-size: 13px;">
+    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
+    <a href="https://estrellama.github.io" target="_blank">Boran Zhang</a>, 
+    <!-- <a href="https://www.yukaicheng.cn/" target="_blank">Haiyang Xu</a>, -->
+    </i><br>
+    Proposed a HyperChamfer Embedding with a dual-hypernetwork architecture to inject global geometric structure into refinement, and integrated PTv3 backbone for efficient acceleration. Achieved structure-aware completion and a 17% improvement on ShapeNet-55, while maintaining fast training and inference.<br>
+    <!-- <b><i style="color:#83a1c7;">ICRA 2026 (Plan to Submit) &nbsp;</i></b>
+      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a> -->
+    </div>
 </div>
 
 <div class="publication-card">
