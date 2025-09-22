@@ -170,7 +170,7 @@ Selected Projects
     <div>
         <strong>UMPE: Unified Map Prior Encoder for Mapping and Planning</strong><br>
        <i style="font-size: 13px;">
-    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
+    <!-- <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>,  -->
     <!-- <a target="_blank">Zongzheng Zhang</a>, 
     <a target="_blank">Jijun Wang</a>,
     <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger; -->
@@ -214,13 +214,13 @@ Scenarios</strong><br>
 <div class="publication-card">
     <img src="images/publication/PointHypE/svdformer.jpg" alt="PointHypE" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>PointHypE: Point Cloud Completion via Hyperbolic Embedding Learning</strong><br>
+        <strong>Enhanced Point Cloud Reconstruction with PTv3 and Dual Hyper in SVDFormer</strong><br>
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
     <a href="https://estrellama.github.io" target="_blank">Boran Zhang</a>, 
     <a href="https://www.yukaicheng.cn/" target="_blank">Haiyang Xu</a>,
     </i><br>
-    Introduce a <b>HyperChamfer Embedding</b> that injects global geometric structure into the refinement stage, enabling structure-aware completion without explicit structural loss. Achieves significant improvements on ShapeNet-PCN benchmark.<br>
+    Proposed a HyperChamfer Embedding with a dual-hypernetwork architecture to inject global geometric structure into refinement, and integrated PTv3 backbone for efficient acceleration. Achieved structure-aware completion and a 17% improvement on ShapeNet-55, while maintaining fast training and inference.<br>
     <!-- <b><i style="color:#83a1c7;">ICRA 2026 (Plan to Submit) &nbsp;</i></b>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a> -->
     </div>
@@ -232,8 +232,8 @@ Scenarios</strong><br>
     <div>
         <strong>Delving into Mapping Uncertainty for Mapless Trajectory Prediction</strong><br>
         <i style="font-size: 13px;">
-            <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
             <a target="_blank">Zongzheng Zhang</a>, 
+            <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
             <a target="_blank">Xuchong Qiu</a>, 
             <a target="_blank">Boran Zhang</a>, 
             <a href="https://www.gilitschenski.org/igor" target="_blank">Igor Gilitschenski</a>,
@@ -256,10 +256,10 @@ Scenarios</strong><br>
     <div>
         <strong>Chameleon: Fast-slow Neuro-symbolic Lane Topology Extraction</strong><br>
         <i style="font-size: 13px;">
-            <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
             <a target="_blank">Zongzheng Zhang</a>, 
             <a target="_blank">Xinrun Li</a>, 
             <a target="_blank">Sizhe Zou</a>, 
+            <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
             <a target="_blank">Guoxuan Chi</a>, 
             <a target="_blank">Siqi Li</a>, 
             <a href="https://hangzhaomit.github.io" target="_blank">Hang Zhao</a>&dagger;, 
