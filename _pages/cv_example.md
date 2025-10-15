@@ -1,4 +1,10 @@
 ---
+layout: redirect
+title: "CV"
+permalink: /cv/
+redirect_to: files/resume_0.pdf
+---
+<!-- ---
 layout: archive
 title: "CV"
 permalink: /cv/
@@ -61,4 +67,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
