@@ -2,7 +2,7 @@
 layout: redirect
 title: "CV"
 permalink: /cv/
-redirect_to: files/resume_0.pdf
+redirect_to: https://ethan-zheng136.github.io/CV.pdf
 ---
 <!-- ---
 layout: archive
