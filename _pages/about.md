@@ -195,7 +195,7 @@ Selected Projects
 </div>
 
 <div class="publication-card">
-    <img src="images/publication/RuleCraft/DriveCTR.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/publication/DriveCTR/DriveCTR.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>TrafficGenBench: A Generative Benchmark for Probing the Reasoning Limits of AI Agents in Complex Traffic
 Scenarios</strong><br>
