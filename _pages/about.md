@@ -194,7 +194,7 @@ Selected Projects
     </div>
 </div>
 
-<div class="publication-card">
+<div class="publication-card featured">
 <div style="display: flex; align-items: center;">
     <img src="images/publication/DriveCTR/DriveCTR.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
     <div>
