@@ -214,6 +214,9 @@ Selected Projects
     DriveCTR is a novel benchmark designed to evaluate and enhance the complex traffic rule reasoning capabilities of multimodal large language models in autonomous driving.
     <br>
     <b><i style="color:#83a1c7;">CVPR 2026 &nbsp;</i></b>
+    <a href="https://ethan-zheng136.github.io"><em>[arXiv]</em></a>
+    <a href="https://ethan-zheng136.github.io"><em>[project page]</em></a>
+    <a href="https://ethan-zheng136.github.io"><em>[code]</em></a>
     </div>
 </div>    
 </div>
@@ -288,7 +291,7 @@ Selected Projects
         <strong>Enhanced Point Cloud Reconstruction with PTv3 and Dual Hyper in SVDFormer</strong><br>
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
-    <a href="https://estrellama.github.io" target="_blank">Boran Zhang</a>;
+    <a href="https://estrellama.github.io" target="_blank">Boran Zhang</a>
     <!-- <a href="https://www.yukaicheng.cn/" target="_blank">Haiyang Xu</a>, -->
     </i><br>
     Proposed a HyperChamfer Embedding with a dual-hypernetwork architecture to inject global geometric structure into refinement, and integrated PTv3 backbone for efficient acceleration. <br>
