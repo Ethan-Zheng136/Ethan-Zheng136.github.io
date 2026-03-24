@@ -285,7 +285,7 @@ Selected Projects
         <strong>Enhanced Point Cloud Reconstruction with PTv3 and Dual Hyper in SVDFormer</strong><br>
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
-    <a href="https://estrellama.github.io" target="_blank">Boran Zhang</a>, 
+    <a href="https://estrellama.github.io" target="_blank">Boran Zhang</a>;
     <!-- <a href="https://www.yukaicheng.cn/" target="_blank">Haiyang Xu</a>, -->
     </i><br>
     Proposed a HyperChamfer Embedding with a dual-hypernetwork architecture to inject global geometric structure into refinement, and integrated PTv3 backbone for efficient acceleration. Achieved structure-aware completion and a 17% improvement on ShapeNet-55, while maintaining fast training and inference.<br>
@@ -301,7 +301,7 @@ Selected Projects
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
     <a target="_blank">Jincheng Yang</a>,
-    <a href="https://ieeexplore.ieee.org/author/37086347850" target="_blank">Dawei Ye</a>&dagger;, 
+    <a href="https://ieeexplore.ieee.org/author/37086347850" target="_blank">Dawei Ye</a>&dagger;
     </i><br>
     Achieved real-time recognition and control of a single hand with five degrees of freedom, with future plans to enable assisting paralyzed individuals in daily tasks such as eating, gripping, and writing. <br>
     </div>
