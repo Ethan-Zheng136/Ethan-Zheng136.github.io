@@ -125,10 +125,11 @@ Currently I conduct the WM research at [Neolix](https://neolix.net/).
 
 News
 ---------------
-
-- *Unleash the potential of uncertainty: [Delving into Uncertainty](https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction) is accepted in IROS 2025🔥*
-- *Our work on lane topology: [Chameleon](https://github.com/XR-Lee/neural-symbolic) is accepted in ICRA 2025 (Oral Presentation)🔥*
-- *Our brain-computer interface project: [Brain-Controlled Robotic Arm]() was selected as National Innovation Program (National-level)🏆*
+- *[DriveCTR]() is accepted in CVPR 2026🔥*
+- *[UMPE](https://github.com/Ethan-Zheng136/UMPE) is accepted in ICRA 2026🔥*
+- *[Delving into Uncertainty](https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction) is accepted in IROS 2025 (Oral Presentation)🔥*
+- *[Chameleon](https://github.com/XR-Lee/neural-symbolic) is accepted in ICRA 2025 (Oral Presentation)🔥*
+- *[Brain-Controlled Robotic Arm]() was selected as National Innovation Program (National-level)🏆*
 
 
 Experience
