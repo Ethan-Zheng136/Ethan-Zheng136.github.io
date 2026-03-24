@@ -210,7 +210,7 @@ Selected Projects
     <a href="https://www.yukaicheng.cn/" target="_blank">Kaicheng Yu</a>&dagger;
     </i><br>
     <br>
-    <b><i style="color:#83a1c7;">CVPR 2026 &nbsp;</i></b>
+    <!-- <b><i style="color:#83a1c7;">CVPR 2026 &nbsp;</i></b> -->
     </div>
 </div>    
 </div>
