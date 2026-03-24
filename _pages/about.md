@@ -134,11 +134,21 @@ Experience
 ---------------
 
 <div class="experience-container">
+
+    <div class="experience-card">
+        <img src="/images/neolix.png" alt="Neolix" class="experience-logo">
+        <div class="experience-info">
+            <strong>Neolix</strong>
+            <div class="date">Feb 2026 – Present</div>
+            <div class="role">Research Intern at <a href="https://neolix.net/"><em>Neolix</em></a></div>
+        </div>
+    </div>
+
     <div class="experience-card">
         <img src="/images/westlake-logo.png" alt="Westlake University" class="experience-logo">
         <div class="experience-info">
             <strong>Westlake University</strong>
-            <div class="date">Jun 2025 – Present</div>
+            <div class="date">Jun 2025 – Jan 2026</div>
             <div class="role">Research Assistant at <a href="https://github.com/westlake-autolab"><em>AutoLab</em></a></div>
         </div>
     </div>
@@ -147,7 +157,7 @@ Experience
         <img src="/images/tsinghua-logo.png" alt="Tsinghua University" class="experience-logo">
         <div class="experience-info">
             <strong>Tsinghua University</strong>
-            <div class="date">Jun 2024 – Present</div>
+            <div class="date">Jun 2024 – Nov 2025</div>
             <div class="role">Research Assistant at <a href="https://air.tsinghua.edu.cn/en/"><em>AIR</em></a></div>
         </div>
     </div>
@@ -177,7 +187,7 @@ Selected Projects
     </i><br>
     UMPE addresses the underutilization of heterogeneous map priors in autonomous driving through a unified dual-branch encoder that integrates HD/SD vector maps, satellite imagery, and rasterized SD maps with BEV features. It achieves significant improvements in both mapping (+5.9 mAP on MapTRv2) and planning (42% trajectory error reduction) while maintaining robustness across different prior availability scenarios.<br>
     <b><i style="color:#83a1c7;">ICRA 2026 (Submission) &nbsp;</i></b>
-    <a href="https://anonymous.4open.science/r/UMPE/"><em>[code]</em></a>
+    <a href="https://github.com/Ethan-Zheng136/UMPE"><em>[code]</em></a>
     </div>
 </div>
 
@@ -218,9 +228,9 @@ Scenarios</strong><br>
     <div>
         <strong>Delving into Mapping Uncertainty for Mapless Trajectory Prediction</strong><br>
         <i style="font-size: 13px;">
-            <a target="_blank">Zongzheng Zhang</a>, 
-            <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
-            <a target="_blank">Xuchong Qiu</a>, 
+            <a target="_blank">Zongzheng Zhang</a><sup>*</sup>, 
+            <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup>, 
+            <a target="_blank">Xuchong Qiu</a><sup>*</sup>, 
             <a target="_blank">Boran Zhang</a>, 
             <a href="https://www.gilitschenski.org/igor" target="_blank">Igor Gilitschenski</a>,
             <a target="_blank">Xunjiang Gu</a>, 
