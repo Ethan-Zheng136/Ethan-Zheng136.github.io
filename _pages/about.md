@@ -188,7 +188,7 @@ Selected Projects
     <a target="_blank">Anqing Jiang</a>,
     <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
     </i><br>
-    UMPE addresses the underutilization of heterogeneous map priors in autonomous driving through a unified dual-branch encoder that integrates HD/SD vector maps, satellite imagery, and rasterized SD maps with BEV features. It achieves significant improvements in both mapping (+5.9 mAP on MapTRv2) and planning (42% trajectory error reduction) while maintaining robustness across different prior availability scenarios.<br>
+    UMPE addresses the underutilization of heterogeneous map priors in autonomous driving through a unified dual-branch encoder that integrates HD/SD vector maps, satellite imagery, and rasterized SD maps with BEV features. <br>
     <b><i style="color:#83a1c7;">ICRA 2026 &nbsp;</i></b>
     <a href="https://ethan-zheng136.github.io/"><em>[arXiv]</em></a>
     <a href="https://ethan-zheng136.github.io/"><em>[project page]</em></a>
@@ -200,8 +200,7 @@ Selected Projects
 <div style="display: flex; align-items: center;">
     <img src="images/publication/DriveCTR/DriveCTR.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>TrafficGenBench: A Generative Benchmark for Probing the Reasoning Limits of AI Agents in Complex Traffic
-Scenarios</strong><br>
+        <strong>TrafficGenBench: A Generative Benchmark for Probing the Reasoning Limits of AI Agents in Complex Traffic Scenarios</strong><br>
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
     <a href="https://estrellama.github.io" target="_blank">Enhui Ma</a>, 
