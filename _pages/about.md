@@ -165,7 +165,7 @@ Experience
     <div class="experience-card">
         <img src="/images/hust-logo.png" alt="HUST" class="experience-logo">
         <div class="experience-info">
-            <strong>Huazhong University of Science and Technology</strong>
+            <strong>Huazhong Univ of Sci and Tech</strong>
             <div class="date">Sep 2022 – Jul 2026</div>
             <div class="role">Research Assistant at <a href="https://xwcv.github.io/"><em>XWCV</em></a></div>
         </div>
@@ -180,19 +180,22 @@ Selected Projects
     <div>
         <strong>UMPE: Unified Map Prior Encoder for Mapping and Planning</strong><br>
        <i style="font-size: 13px;">
-    <!-- <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>,  -->
-    <!-- <a target="_blank">Zongzheng Zhang</a>, 
-    <a target="_blank">Jijun Wang</a>,
-    <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger; -->
+    <a target="_blank">Zongzheng Zhang</a><sup>*</sup>, 
+    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup>, 
+    <a target="_blank">Sizhe Zou</a><sup>*</sup>, 
+    <a target="_blank">Zhenxin Zhu</a>,
+    <a target="_blank">Guoxuan Chi</a>,
+    <a target="_blank">Anqing Jiang</a>,
+    <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
     </i><br>
     UMPE addresses the underutilization of heterogeneous map priors in autonomous driving through a unified dual-branch encoder that integrates HD/SD vector maps, satellite imagery, and rasterized SD maps with BEV features. It achieves significant improvements in both mapping (+5.9 mAP on MapTRv2) and planning (42% trajectory error reduction) while maintaining robustness across different prior availability scenarios.<br>
-    <b><i style="color:#83a1c7;">ICRA 2026 (Submission) &nbsp;</i></b>
+    <b><i style="color:#83a1c7;">ICRA 2026 &nbsp;</i></b>
     <a href="https://github.com/Ethan-Zheng136/UMPE"><em>[code]</em></a>
     </div>
 </div>
 
 <div class="publication-card">
-    <img src="images/publication/RuleCraft/craft.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/publication/RuleCraft/DriveCTR.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>TrafficGenBench: A Generative Benchmark for Probing the Reasoning Limits of AI Agents in Complex Traffic
 Scenarios</strong><br>
@@ -202,7 +205,7 @@ Scenarios</strong><br>
     <a href="https://www.yukaicheng.cn/" target="_blank">Kaicheng Yu</a>&dagger;
     </i><br>
     <br>
-    <b><i style="color:#83a1c7;">CVPR 2026 (Plan to Submit) &nbsp;</i></b>
+    <b><i style="color:#83a1c7;">CVPR 2026 &nbsp;</i></b>
     </div>
 </div>
 
@@ -238,7 +241,7 @@ Scenarios</strong><br>
             <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
         </i><br>
         Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.<br>
-        <b><i style="color:#83a1c7;">IROS 2025 &nbsp;</i></b>
+        <b><i style="color:#83a1c7;">IROS 2025 (Oral Presentation) &nbsp;</i></b>
         <a href="https://www.arxiv.org/abs/2507.18498"><em>[arXiv]</em></a>
         <a href="https://ethan-zheng136.github.io/Dev-Unc"><em>[project page]</em></a>
         <a href="https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction"><em>[code]</em></a>
