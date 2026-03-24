@@ -202,8 +202,11 @@ Selected Projects
     <div>
         <strong>TrafficGenBench: A Generative Benchmark for Probing the Reasoning Limits of AI Agents in Complex Traffic Scenarios</strong><br>
        <i style="font-size: 13px;">
-    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
     <a href="https://estrellama.github.io" target="_blank">Enhui Ma</a>, 
+    <a target="_blank">Jiahuan Zhang</a>,
+    <a target="_blank">Tao Tang</a>,
+    <a target="_blank">Yuhang Lu</a>,
+    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
     <a href="https://www.yukaicheng.cn/" target="_blank">Kaicheng Yu</a>&dagger;
     </i><br>
     <br>
