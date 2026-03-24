@@ -175,10 +175,10 @@ Experience
 Selected Projects
 ---------------
 
-<div class="publication-card">
+<div class="publication-card featured">
     <img src="images/publication/umpe/pipeline.png" alt="UMPE" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>UMPE: Unified Map Prior Encoder for Mapping and Planning</strong><br>
+        <strong>Unified Map Prior Encoder for Mapping and Planning</strong><br>
        <i style="font-size: 13px;">
     <a target="_blank">Zongzheng Zhang</a><sup>*</sup>, 
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup>, 
@@ -190,6 +190,8 @@ Selected Projects
     </i><br>
     UMPE addresses the underutilization of heterogeneous map priors in autonomous driving through a unified dual-branch encoder that integrates HD/SD vector maps, satellite imagery, and rasterized SD maps with BEV features. It achieves significant improvements in both mapping (+5.9 mAP on MapTRv2) and planning (42% trajectory error reduction) while maintaining robustness across different prior availability scenarios.<br>
     <b><i style="color:#83a1c7;">ICRA 2026 &nbsp;</i></b>
+    <a href="https://ethan-zheng136.github.io/"><em>[arXiv]</em></a>
+    <a href="https://ethan-zheng136.github.io/"><em>[project page]</em></a>
     <a href="https://github.com/Ethan-Zheng136/UMPE"><em>[code]</em></a>
     </div>
 </div>
