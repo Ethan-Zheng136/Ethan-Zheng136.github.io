@@ -195,6 +195,7 @@ Selected Projects
 </div>
 
 <div class="publication-card">
+<div style="display: flex; align-items: center;">
     <img src="images/publication/DriveCTR/DriveCTR.png" alt="RuleCraft" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>TrafficGenBench: A Generative Benchmark for Probing the Reasoning Limits of AI Agents in Complex Traffic
@@ -207,6 +208,7 @@ Scenarios</strong><br>
     <br>
     <b><i style="color:#83a1c7;">CVPR 2026 &nbsp;</i></b>
     </div>
+</div>    
 </div>
 
 <div class="publication-card">
