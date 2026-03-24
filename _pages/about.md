@@ -288,7 +288,7 @@ Selected Projects
     <a href="https://estrellama.github.io" target="_blank">Boran Zhang</a>;
     <!-- <a href="https://www.yukaicheng.cn/" target="_blank">Haiyang Xu</a>, -->
     </i><br>
-    Proposed a HyperChamfer Embedding with a dual-hypernetwork architecture to inject global geometric structure into refinement, and integrated PTv3 backbone for efficient acceleration. Achieved structure-aware completion and a 17% improvement on ShapeNet-55, while maintaining fast training and inference.<br>
+    Proposed a HyperChamfer Embedding with a dual-hypernetwork architecture to inject global geometric structure into refinement, and integrated PTv3 backbone for efficient acceleration. <br>
     <!-- <b><i style="color:#83a1c7;">ICRA 2026 (Plan to Submit) &nbsp;</i></b>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a> -->
     </div>
