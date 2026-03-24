@@ -211,6 +211,7 @@ Selected Projects
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>, 
     <a href="https://www.yukaicheng.cn/" target="_blank">Kaicheng Yu</a>&dagger;
     </i><br>
+    DriveCTR is a novel benchmark designed to evaluate and enhance the complex traffic rule reasoning capabilities of multimodal large language models in autonomous driving.
     <br>
     <b><i style="color:#83a1c7;">CVPR 2026 &nbsp;</i></b>
     </div>
