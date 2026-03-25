@@ -27,7 +27,7 @@ author:
   pronouns         : "He/Him" # example: "she/her"  
   bio              : "Undergraduate at HUST, AI Researcher at AIR, Tsinghua University"
   location         : "Beijing, China"
-  employer         : "Huazhong University of Sci and Tech"
+  employer         : # "Huazhong University of Sci and Tech"
   uri              : # URL
   email            : "guantianzheng136@gmail.com" 
 s
