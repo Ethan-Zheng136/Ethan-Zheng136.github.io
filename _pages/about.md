@@ -232,7 +232,9 @@ Experience
     </div>
 </div>
 
-Selected Projects
+<script src="assets/js/show_publications.js"></script>
+
+Projects
 ---------------
 <div class="pub-button-container">
   <button class="pub-button active" onclick="showPublications('all')">All Publications</button>
