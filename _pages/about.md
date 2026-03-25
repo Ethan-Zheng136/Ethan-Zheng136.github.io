@@ -144,7 +144,7 @@ Experience
         <div class="experience-info">
             <strong>Neolix</strong>
             <div class="date">Feb 2026 – Present</div>
-            <div class="role">Research Intern at <a href="https://neolix.net/"><em>Neolix</em></a></div>
+            <div class="role">Research Intern at <a href="https://neolix.net/"><em>Neolix-AD</em></a></div>
         </div>
     </div>
 
