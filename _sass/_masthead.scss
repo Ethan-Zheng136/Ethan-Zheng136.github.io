@@ -4,8 +4,9 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
-  height: fit-content;
+  background: #FFFFFF;
+  border-bottom: 1px solid $border-color;
+  height: $masthead-height;
   top: 0;
   width: 100%;
 
@@ -15,21 +16,12 @@
           animation-delay: 0.15s;
   z-index: 20;
 
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    height: 1px;
-    background: var(--global-border-color);
-    width: 100%;
-  }
-
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 0.5em 1em;
-    font-family: $sans-serif-narrow;
-
+    padding: 1em 1em 1em;
+    font-family: "italic","Music Carnival","HFBest Wishes", "Comic Sans MS","Verdana";
+    font-size: 17px;
     @include breakpoint($x-large) {
       max-width: $x-large;
     }
@@ -55,13 +47,12 @@
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
   display: block;
   list-style-type: none;
   white-space: nowrap;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 3em;
     font-weight: 700;
   }
 }
