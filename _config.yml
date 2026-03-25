@@ -23,14 +23,14 @@ repository               : "Ethan-Zheng136/Ethan-Zheng136.github.io"
 author:
   # Biographic information
   avatar           : "zgt_new.jpg"
-  name             : "Guantian Zheng 郑冠天"
+  name             : "Guantian Zheng"
   pronouns         : "He/Him" # example: "she/her"  
   bio              : "Undergraduate at HUST, AI Researcher at AIR, Tsinghua University"
   location         : "Beijing, China"
   employer         : "Huazhong University of Sci and Tech"
   uri              : # URL
   email            : "guantianzheng136@gmail.com" 
-
+s
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
