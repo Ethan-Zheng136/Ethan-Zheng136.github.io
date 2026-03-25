@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ethan Zheng/Personal Homepage"
+title                    : "Ethan Zheng / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Guantian Zheng"
 description              : &description "AI Researcher | Autonomous Driving | Computer Vision"
@@ -24,9 +24,9 @@ author:
   # Biographic information
   avatar           : "zgt_new.jpg"
   name             : "Guantian Zheng"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/him" # example: "she/her"  
   bio              : "Undergraduate at HUST, AI Researcher at AIR, Tsinghua University"
-  location         : "Wuhan, China"
+  location         : "Beijing, China"
   employer         : "Huazhong University of Sci and Tech"
   uri              : # URL
   email            : "guantianzheng136@gmail.com" 

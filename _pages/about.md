@@ -5,7 +5,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 <style>
     .experience-card {
         display: flex;
@@ -18,7 +17,7 @@ redirect_from:
         transition: transform 0.3s, box-shadow 0.3s;
     }
     .experience-card:hover {
-        transform: translateY(-5px);
+       
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
     .experience-logo {
@@ -54,21 +53,23 @@ redirect_from:
         border-radius: 8px;
         background: #fff;
         box-sizing: border-box;
-
-        /* 关键：确保这个下外边距存在，它负责卡片之间的垂直距离 */
         margin-bottom: 20px; 
-        
-        /* 将过渡效果放在基础卡片上，这样所有卡片（包括非精选的）都能有平滑效果 */
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
 
-    /* 当鼠标悬浮在任意 publication-card 上时的效果 */
+        color: #5f6368; /* 正文整体更浅 */
+    }
+    .publication-card > div > strong,
+    .publication-card > div > div > strong {
+        color: #202124;
+    }
+    .publication-card i {
+        color: #6b7280;
+    }
     .publication-card:hover {
-        transform: translateY(-5px);
+       
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
 
-    /* 精选卡片（featured）的特殊样式 */
     .publication-card.featured {
         border-color: #f5bba7;       /* 更浅的哈密瓜色边框 */
         background: #fef5f1;         /* 非常浅的哈密瓜色背景 */
@@ -76,12 +77,68 @@ redirect_from:
         z-index: 10;
     }
 
-    /* 鼠标悬浮在精选卡片上时的效果 */
     .publication-card.featured:hover {
-        transform: translateY(-5px); /* 向上移动效果保持不变 */
-        /* 阴影使用更明显的哈密瓜色调 */
         box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); 
     }
+    
+    .publication-card.non-featured {
+        display: flex; /* 默认隐藏非精选出版物 */
+    }
+    
+    .pub-button-container {
+        display: flex;
+        gap: 10px;
+        margin: 20px 0;
+        flex-wrap: wrap;
+    }
+    
+    .pub-button {
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 8px 16px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .pub-button:hover {
+        background-color: #e0e0e0;
+    }
+    
+    .pub-button.active {
+        background-color: #ca6f6f;
+        color: white;
+        border-color: #ca6f6f;
+    }
+
+    /* Projects cards: keep styles independent from publications */
+    .project-card {
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        border: 1.5px solid #ddd;
+        border-radius: 8px;
+        background: #fff;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        color: #5f6368;
+    }
+
+    .project-card > div > strong,
+    .project-card > div > div > strong {
+        color: #202124;
+    }
+
+    .project-card i {
+        color: #6b7280;
+    }
+
+    .project-card:hover {
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
 </style>
 <html> 
 <head>
@@ -110,7 +167,6 @@ redirect_from:
         }
     </style>
 </head>
-
 <body>
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 </body>
@@ -178,6 +234,11 @@ Experience
 
 Selected Projects
 ---------------
+<div class="pub-button-container">
+  <button class="pub-button active" onclick="showPublications('all')">All Publications</button>
+  <button class="pub-button" onclick="showPublications('featured')">Selected Only</button>
+</div>
+
 
 <div class="publication-card featured">
     <img src="images/publication/umpe/pipeline.png" alt="UMPE" width="200" height="100" style="margin-right: 20px;">
