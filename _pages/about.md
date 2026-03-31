@@ -279,7 +279,7 @@ Projects
     DriveCTR is a novel benchmark designed to evaluate and enhance the complex traffic rule reasoning capabilities of multimodal large language models in autonomous driving.
     <br>
     <b><i style="color:#83a1c7;">CVPR 2026 &nbsp;</i></b>
-    <a href="https://ethan-zheng136.github.io"><em>[arXiv]</em></a>
+    <a href="https://arxiv.org/abs/2603.01637"><em>[arXiv]</em></a>
     <a href="https://ethan-zheng136.github.io"><em>[project page]</em></a>
     <a href="https://ethan-zheng136.github.io"><em>[code]</em></a>
     </div>
