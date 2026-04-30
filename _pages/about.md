@@ -256,7 +256,7 @@ Projects
     <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
     </i><br>
     UMPE addresses the underutilization of heterogeneous map priors in autonomous driving through a unified dual-branch encoder that integrates HD/SD vector maps, satellite imagery, and rasterized SD maps with BEV features. <br>
-    <b><i style="color:#83a1c7;">ICRA 2026 &nbsp;</i></b>
+    <b><i style="color:#83a1c7;">ICRA 2026 (Oral) &nbsp;</i></b>
     <a href="https://ethan-zheng136.github.io/"><em>[arXiv]</em></a>
     <a href="https://ethan-zheng136.github.io/"><em>[project page]</em></a>
     <a href="https://github.com/Ethan-Zheng136/UMPE"><em>[code]</em></a>
@@ -318,7 +318,7 @@ Projects
             <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger;
         </i><br>
         Propose lightweight Proprioceptive Scenario Gating module and Covariance-Based Map Uncertainty model, achieving up to 23.6% performance improvement over prior SOTA methods.<br>
-        <b><i style="color:#83a1c7;">IROS 2025 (Oral Presentation) &nbsp;</i></b>
+        <b><i style="color:#83a1c7;">IROS 2025 (Oral) &nbsp;</i></b>
         <a href="https://www.arxiv.org/abs/2507.18498"><em>[arXiv]</em></a>
         <a href="https://ethan-zheng136.github.io/Dev-Unc"><em>[project page]</em></a>
         <a href="https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction"><em>[code]</em></a>
@@ -342,7 +342,7 @@ Projects
             <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a>&dagger; 
         </i><br>
         Propose neuro-symbolic algorithm combining symbolic reasoning with Chain-of-Thought VLMs, reducing inference time from >200s to 0.1-8s per frame with 5% accuracy improvement.<br>
-        <b><i style="color:#83a1c7;">ICRA 2025 (Oral Presentation) &nbsp;</i></b>
+        <b><i style="color:#83a1c7;">ICRA 2025 (Oral) &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2503.07485"><em>[arXiv]</em></a>
         <!-- <a href="https://ethan-zheng136.github.io/Dev-Unc"><em>[project page]</em></a> -->
         <a href="https://github.com/XR-Lee/neural-symbolic"><em>[code]</em></a>
