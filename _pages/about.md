@@ -183,7 +183,7 @@ Currently I conduct the WM and E2E research at [Neolix](https://neolix.net/).
 
 News
 ---------------
-- *[DriveCTR]() is accepted in CVPR 2026🔥*
+- *[DriveCombo]() is accepted in CVPR 2026🔥*
 - *[UMPE](https://github.com/Ethan-Zheng136/UMPE) is accepted in ICRA 2026 (Oral Presentation)🔥*
 - *[Delving into Uncertainty](https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction) is accepted in IROS 2025 (Oral Presentation)🔥*
 - *[Chameleon](https://github.com/XR-Lee/neural-symbolic) is accepted in ICRA 2025 (Oral Presentation)🔥*
