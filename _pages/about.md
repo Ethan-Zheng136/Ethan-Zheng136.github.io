@@ -174,7 +174,7 @@ redirect_from:
 
 I am an undergraduate (2022-2026) at **Huazhong University of Science and Technology**, passionate about *Autonomous Driving and Computer Vision*.  
 
-I work at [AIR@THU](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Autolab@WLU](https://github.com/westlake-autolab) with [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).  
+Previously I worked at [AIR@THU](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Autolab@WLU](https://github.com/westlake-autolab) with [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).  
 
 Currently I conduct the WM and E2E research at [Neolix](https://neolix.net/).
 
