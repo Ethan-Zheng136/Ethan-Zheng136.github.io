@@ -246,7 +246,7 @@ Projects
     <div>
         <strong>StyleShield: Exposing the Fragility of AIGC Detectors through Continuous Controllable Style Transfer</strong><br>
         <i style="font-size: 13px;">
-        <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>
+        <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup>
         </i><br>
         Proposed StyleShield, the first flow matching framework for conditional text style transfer in continuous token embedding space. A single parameter γ provides smooth, continuous control over the evasion--preservation trade-off, fundamentally inaccessible to discrete-token methods. <br>
         <b><i style="color:#83a1c7;">EMNLP submitted &nbsp;</i></b>
