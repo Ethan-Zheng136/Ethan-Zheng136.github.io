@@ -223,7 +223,7 @@ Experience
     </div>
     
     <div class="experience-card">
-        <img src="/images/logo/ntu-logo1.png" alt="HUST" class="experience-logo">
+        <img src="/images/logo/hust-logo.png" alt="HUST" class="experience-logo">
         <div class="experience-info">
             <strong>Huazhong Univ of Sci and Tech</strong>
             <div class="date">Sep 2022 – Jul 2026</div>
