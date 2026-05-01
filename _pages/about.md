@@ -196,7 +196,7 @@ Experience
 <div class="experience-container">
 
     <div class="experience-card">
-        <img src="/images/neolix.png" alt="Neolix" class="experience-logo">
+        <img src="/images/logo/neolix-logo.pngneolix.png" alt="Neolix" class="experience-logo">
         <div class="experience-info">
             <strong>Neolix</strong>
             <div class="date">Feb 2026 – Present</div>
@@ -205,7 +205,7 @@ Experience
     </div>
 
     <div class="experience-card">
-        <img src="/images/westlake-logo.png" alt="Westlake University" class="experience-logo">
+        <img src="/images/logo/westlake-logo.png" alt="Westlake University" class="experience-logo">
         <div class="experience-info">
             <strong>Westlake University</strong>
             <div class="date">Jun 2025 – Jan 2026</div>
@@ -214,7 +214,7 @@ Experience
     </div>
 
     <div class="experience-card">
-        <img src="/images/tsinghua-logo.png" alt="Tsinghua University" class="experience-logo">
+        <img src="/images/logo/tsinghua-logo.png" alt="Tsinghua University" class="experience-logo">
         <div class="experience-info">
             <strong>Tsinghua University</strong>
             <div class="date">Jun 2024 – Nov 2025</div>
@@ -223,7 +223,7 @@ Experience
     </div>
     
     <div class="experience-card">
-        <img src="/images/hust-logo.png" alt="HUST" class="experience-logo">
+        <img src="/images/logo/ntu-logo.png" alt="HUST" class="experience-logo">
         <div class="experience-info">
             <strong>Huazhong Univ of Sci and Tech</strong>
             <div class="date">Sep 2022 – Jul 2026</div>
