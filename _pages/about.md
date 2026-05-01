@@ -196,7 +196,7 @@ Experience
 <div class="experience-container">
 
     <div class="experience-card">
-        <img src="/images/logo/neolix-logo.pngneolix.png" alt="Neolix" class="experience-logo">
+        <img src="/images/logo/neolix-logo.png" alt="Neolix" class="experience-logo">
         <div class="experience-info">
             <strong>Neolix</strong>
             <div class="date">Feb 2026 – Present</div>
