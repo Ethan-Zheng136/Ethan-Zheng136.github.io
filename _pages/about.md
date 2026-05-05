@@ -250,7 +250,7 @@ Projects
         </i><br>
         StyleShield, the first flow matching framework for conditional text style transfer in continuous token embedding space. A single parameter γ provides smooth, continuous control over the evasion--preservation trade-off, fundamentally inaccessible to discrete-token methods. <br>
         <b><i style="color:#83a1c7;">EMNLP 2026 submitted &nbsp;</i></b>
-        <a href="https://arxiv.org/abs/2505.XXXXX" target="_blank"><em>[arxiv]</em></a>
+        <a href="https://arxiv.org/abs/2605.00924" target="_blank"><em>[arxiv]</em></a>
         <a href="https://github.com/Ethan-Zheng136/StyleShield"><em>[code]</em></a>
         <a href="https://github.com/Ethan-Zheng136/StyleShield"><em>[dataset]</em></a>
     </div>
