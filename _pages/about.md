@@ -271,7 +271,7 @@ Projects
     </i><br>
     UMPE addresses the underutilization of heterogeneous map priors in autonomous driving through a unified dual-branch encoder that integrates HD/SD vector maps, satellite imagery, and rasterized SD maps with BEV features. <br>
     <b><i style="color:#83a1c7;">ICRA 2026 (Oral) &nbsp;</i></b>
-    <a href="https://ethan-zheng136.github.io/"><em>[arXiv]</em></a>
+    <a href="https://arxiv.org/abs/2605.02762"><em>[arXiv]</em></a>
     <a href="https://ethan-zheng136.github.io/"><em>[project page]</em></a>
     <a href="https://github.com/Ethan-Zheng136/UMPE"><em>[code]</em></a>
     </div>
