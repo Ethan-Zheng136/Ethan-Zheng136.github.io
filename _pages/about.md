@@ -290,7 +290,7 @@ Projects
     <a target="_blank">Yuhang Lu</a>,
     <a href="https://www.yukaicheng.cn/" target="_blank">Kaicheng Yu</a>&dagger;
     </i><br>
-    DriveCTR is a novel benchmark designed to evaluate and enhance the complex traffic rule reasoning capabilities of multimodal large language models in autonomous driving.
+    DriveCombo is a novel benchmark designed to evaluate and enhance the complex traffic rule reasoning capabilities of multimodal large language models in autonomous driving.
     <br>
     <b><i style="color:#83a1c7;">CVPR 2026 &nbsp;</i></b>
     <a href="https://arxiv.org/abs/2603.01637"><em>[arXiv]</em></a>
