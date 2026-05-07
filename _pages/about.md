@@ -257,7 +257,7 @@ Projects
 </div>
 
 <div class="publication-card">
-    <img src="images/publication/StyleShield/styleshield.png" alt="StyleShield" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/publication/hyper/overview.png" alt="Hyper" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Hyper<sup>2</sup>: Unleashing Hyperbolic Geometry's Full Potential\\through Dual-Space Consistency</strong><br>
         <i style="font-size: 13px;">
