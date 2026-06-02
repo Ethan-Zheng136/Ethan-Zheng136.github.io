@@ -172,7 +172,7 @@ redirect_from:
 </body>
 </html>
 
-I am an undergraduate (2022-2026) at **Huazhong University of Science and Technology**, passionate about *Autonomous Driving and Computer Vision*.  
+I am an undergraduate (2022-2026) at **Huazhong University of Science and Technology** and an incoming PhD at [AutoMan@NTU](https://lvchen.wixsite.com/automan) with [Prof. Chen Lyu](https://lvchen.wixsite.com/automan), passionate about *Autonomous Driving and Computer Vision*.
 
 Previously I worked at [AIR@THU](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Autolab@WLU](https://github.com/westlake-autolab) with [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).  
 
@@ -194,7 +194,14 @@ Experience
 ---------------
 
 <div class="experience-container">
-
+    <div class="experience-card">
+        <img src="/images/logo/ntu-logo1.png" alt="Nanyang Technological University" class="experience-logo">
+        <div class="experience-info">
+            <strong>Neolix</strong>
+            <div class="date">Aug 2026 – </div>
+            <div class="role">PhD at <a href="https://lvchen.wixsite.com/automan"><em>AutoMan@NTU</em></a></div>
+        </div>
+    </div>
     <div class="experience-card">
         <img src="/images/logo/neolix-logo.png" alt="Neolix" class="experience-logo">
         <div class="experience-info">
@@ -203,7 +210,6 @@ Experience
             <div class="role">Research Intern at <a href="https://neolix.net/"><em>Neolix-AD</em></a></div>
         </div>
     </div>
-
     <div class="experience-card">
         <img src="/images/logo/westlake-logo.png" alt="Westlake University" class="experience-logo">
         <div class="experience-info">
@@ -212,7 +218,6 @@ Experience
             <div class="role">Research Assistant at <a href="https://github.com/westlake-autolab"><em>AutoLab</em></a></div>
         </div>
     </div>
-
     <div class="experience-card">
         <img src="/images/logo/tsinghua-logo.png" alt="Tsinghua University" class="experience-logo">
         <div class="experience-info">
@@ -221,7 +226,6 @@ Experience
             <div class="role">Research Assistant at <a href="https://air.tsinghua.edu.cn/en/"><em>AIR</em></a></div>
         </div>
     </div>
-    
     <div class="experience-card">
         <img src="/images/logo/hust-logo.png" alt="HUST" class="experience-logo">
         <div class="experience-info">
