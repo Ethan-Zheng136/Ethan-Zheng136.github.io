@@ -197,7 +197,7 @@ Experience
     <div class="experience-card">
         <img src="/images/logo/ntu-logo1.png" alt="Nanyang Technological University" class="experience-logo">
         <div class="experience-info">
-            <strong>Neolix</strong>
+            <strong>Nanyang Technological University</strong>
             <div class="date">Aug 2026 – </div>
             <div class="role">PhD at <a href="https://lvchen.wixsite.com/automan"><em>AutoMan@NTU</em></a></div>
         </div>
