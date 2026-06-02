@@ -417,6 +417,7 @@ Honors & Awards
 
 <div class="awards-list">
     <ul>
+        <li><strong>Outstanding Graduate of HUST</strong> (2026)</li>
         <li><strong>Academic Excellence Scholarship</strong> (2025)</li>
         <li><strong>Self-Motivation and Diligence Scholarship</strong> (2024)</li>
         <li><strong>Academic Excellence Scholarship</strong> (2023)</li>
@@ -425,4 +426,3 @@ Honors & Awards
 
 ---
 
-*I'm actively seeking research opportunities in Autonomous Driving and Computer Vision for graduate studies. Feel free to reach out if you'd like to collaborate.*
