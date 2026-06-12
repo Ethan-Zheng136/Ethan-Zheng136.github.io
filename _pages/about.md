@@ -199,7 +199,7 @@ Experience
         <div class="experience-info">
             <strong>Nanyang Technological University</strong>
             <div class="date">Aug 2026 – </div>
-            <div class="role">PhD at <a href="https://lvchen.wixsite.com/automan"><em>AutoMan@NTU</em></a></div>
+            <div class="role">Ph.D at <a href="https://lvchen.wixsite.com/automan"><em>AutoMan@NTU</em></a></div>
         </div>
     </div>
     <div class="experience-card">
