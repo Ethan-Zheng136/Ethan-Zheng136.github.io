@@ -269,7 +269,7 @@ Projects
         <a href="_blank" target="_blank"><strong>Haiyang Xu</strong></a>
         </i><br>
         Hyper<sup>2</sup> identifies cross-geometry mismatch as the bottleneck of hyperbolic point cloud completion and resolves it via dual-space consistency, achieving 22.9% CD reduction with only 1.6% FLOPs overhead.<br>
-        <b><i style="color:#83a1c7;">BMVC 2026 submitted &nbsp;</i></b>
+        <b><i style="color:#83a1c7;">BMVC 2026 &nbsp;</i></b>
         <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[arxiv]</em></a>
         <a href="https://ethan-zheng136.github.io/"><em>[code]</em></a>
         <a href="https://ethan-zheng136.github.io/"><em>[dataset]</em></a>
