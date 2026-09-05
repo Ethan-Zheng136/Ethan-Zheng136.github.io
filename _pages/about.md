@@ -277,8 +277,6 @@ Projects
     <a href="#" target="_blank"><strong>Lidong Yu</strong></a>&dagger;
     </i><br>
     ATLAS is a ~7.5B parameter multimodal visual backbone for autonomous driving, pretrained under a multi-teacher distillation framework combining DINOv2/VGGT (geometry & semantics), Cosmos Tokenizer (visual-generation supervision), and a 7B VLM (semantic alignment). I owned the Video Head / Render Decoder, realizing visual-token distillation via the Cosmos CI Tokenizer and systematically analyzing token-space alignment. <br>
-    <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[arxiv]</em></a>
-    <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[code]</em></a>
     </div>
 </div>    
 </div>
