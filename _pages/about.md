@@ -254,8 +254,7 @@ Projects
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup>
     </i><br>
-    YOUDrive turns driving style into a continuous, composable control axis on a VLA backbone. A flow-matching decoder replaces the discrete action codebook to sample dynamically feasible trajectories, while each persona is distilled as a low-rank task vector in the VLA content space—enabling style scaling and composition without retraining. The Style Alignment Score (SAS) reports style on its own terms; on NAVSIM navtest, a single coefficient traces a monotone style path while keeping closed-loop safety above 0.90 PDMS (up to 0.954). <br>
-    <b><i style="color:#83a1c7;">CVPR 2027 submission &nbsp;</i></b>
+    YouDrive treats driving style as a continuous, composable axis on a VLA backbone: a flow-matching decoder commits to feasible trajectories instead of averaging, and each persona is a low-rank task vector scaled by one coefficient. The Style Alignment Score (SAS) reports style independently of safety; on NAVSIM, a single coefficient traces a controllable style path while keeping PDMS above 0.90 (up to 0.954).<br>
     <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[arxiv]</em></a>
     <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[code]</em></a>
     <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[dataset]</em></a>
@@ -272,7 +271,6 @@ Projects
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>
     </i><br>
     ATLAS is a ~7.5B parameter multimodal visual backbone for autonomous driving, pretrained under a multi-teacher distillation framework combining DINOv2/VGGT (geometry & semantics), Cosmos Tokenizer (visual-generation supervision), and a 7B VLM (semantic alignment). I owned the Video Head / Render Decoder, realizing visual-token distillation via the Cosmos CI Tokenizer and systematically analyzing token-space alignment. <br>
-    <b><i style="color:#83a1c7;">Manuscript in preparation &nbsp;</i></b>
     <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[arxiv]</em></a>
     <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[code]</em></a>
     </div>
@@ -287,7 +285,7 @@ Projects
         <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup>
         </i><br>
         StyleShield, the first flow matching framework for conditional text style transfer in continuous token embedding space. A single parameter γ provides smooth, continuous control over the evasion--preservation trade-off, fundamentally inaccessible to discrete-token methods. <br>
-        <b><i style="color:#83a1c7;">EACL 2026 submitted &nbsp;</i></b>
+        <b><i style="color:#83a1c7;">EACL 2026 submission &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2605.00924" target="_blank"><em>[arxiv]</em></a>
         <a href="https://github.com/Ethan-Zheng136/StyleShield"><em>[code]</em></a>
         <a href="https://github.com/Ethan-Zheng136/StyleShield"><em>[dataset]</em></a>
