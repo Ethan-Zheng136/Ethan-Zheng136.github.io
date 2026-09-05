@@ -297,9 +297,9 @@ Projects
     <div>
         <strong>Hyper<sup>2</sup>: Unleashing Hyperbolic Geometry's Full Potential through Dual-Space Consistency</strong><br>
         <i style="font-size: 13px;">
-        <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup></a>&dagger
-        <a href="_blank" target="_blank"><strong>Haiyang Xu</strong></a>
-        <a href="_blank" target="_blank"><strong>Tianyu Gao</strong></a>
+        <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup><sup>&dagger;</sup>,
+        <a href="#" target="_blank"><strong>Haiyang Xu</strong></a>,
+        <a href="#" target="_blank"><strong>Tianyu Gao</strong></a>
         </i><br>
         Hyper<sup>2</sup> identifies cross-geometry mismatch as the bottleneck of hyperbolic point cloud completion and resolves it via dual-space consistency, achieving 22.9% CD reduction with only 1.6% FLOPs overhead.<br>
         <b><i style="color:#83a1c7;">BMVC 2026 &nbsp;</i></b>
