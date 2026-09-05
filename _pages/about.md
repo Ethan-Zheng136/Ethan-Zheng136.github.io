@@ -183,6 +183,7 @@ Currently I conduct the WM and E2E research at [Neolix](https://neolix.net/).
 
 News
 ---------------
+- *[Hyper²]() is accepted in BMVC 2026🔥*
 - *[DriveCombo]() is accepted in CVPR 2026🔥*
 - *[UMPE](https://github.com/Ethan-Zheng136/UMPE) is accepted in ICRA 2026 (Oral Presentation)🔥*
 - *[Delving into Uncertainty](https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction) is accepted in IROS 2025 (Oral Presentation)🔥*
@@ -243,6 +244,39 @@ Projects
 <div class="pub-button-container">
   <button class="pub-button active" onclick="showPublications('all')">All Publications</button>
   <button class="pub-button" onclick="showPublications('featured')">Selected Only</button>
+</div>
+
+<div class="publication-card">
+<div style="display: flex; align-items: center;">
+    <img src="images/publication/YOUDrive/youdrive_pipeline.png" alt="YouDrive" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>YOUDrive: Driving Style as a Steerable Axis for Personalized End-to-End Driving</strong><br>
+       <i style="font-size: 13px;">
+    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup>
+    </i><br>
+    YOUDrive turns driving style into a continuous, composable control axis on a VLA backbone. A flow-matching decoder replaces the discrete action codebook to sample dynamically feasible trajectories, while each persona is distilled as a low-rank task vector in the VLA content space—enabling style scaling and composition without retraining. The Style Alignment Score (SAS) reports style on its own terms; on NAVSIM navtest, a single coefficient traces a monotone style path while keeping closed-loop safety above 0.90 PDMS (up to 0.954). <br>
+    <b><i style="color:#83a1c7;">CVPR 2027 submission &nbsp;</i></b>
+    <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[arxiv]</em></a>
+    <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[code]</em></a>
+    <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[dataset]</em></a>
+    </div>
+</div>    
+</div>
+
+<div class="publication-card">
+<div style="display: flex; align-items: center;">
+    <img src="images/publication/ATLAS/overview.png" alt="ATLAS" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>ATLAS: Large-Scale Multimodal Autonomous-Driving Backbone Pre-training</strong><br>
+       <i style="font-size: 13px;">
+    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>
+    </i><br>
+    ATLAS is a ~7.5B parameter multimodal visual backbone for autonomous driving, pretrained under a multi-teacher distillation framework combining DINOv2/VGGT (geometry & semantics), Cosmos Tokenizer (visual-generation supervision), and a 7B VLM (semantic alignment). I owned the Video Head / Render Decoder, realizing visual-token distillation via the Cosmos CI Tokenizer and systematically analyzing token-space alignment. <br>
+    <b><i style="color:#83a1c7;">Manuscript in preparation &nbsp;</i></b>
+    <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[arxiv]</em></a>
+    <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[code]</em></a>
+    </div>
+</div>    
 </div>
 
 <div class="publication-card">
