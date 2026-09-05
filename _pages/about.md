@@ -254,7 +254,7 @@ Projects
        <i style="font-size: 13px;">
     <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup>
     </i><br>
-    YouDrive treats driving style as a continuous, composable axis on a VLA backbone: a flow-matching decoder commits to feasible trajectories instead of averaging, and each persona is a low-rank task vector scaled by one coefficient. The Style Alignment Score (SAS) reports style independently of safety; on NAVSIM, a single coefficient traces a controllable style path while keeping PDMS above 0.90 (up to 0.954).<br> 
+    YOUDrive treats driving style as a continuous, composable axis on a VLA backbone: a flow-matching decoder commits to feasible trajectories instead of averaging, and each persona is a low-rank task vector scaled by one coefficient. The Style Alignment Score (SAS) reports style independently of safety; on NAVSIM, a single coefficient traces a controllable style path while keeping PDMS above 0.90 (up to 0.954).<br> 
     <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[arxiv]</em></a>
     <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[code]</em></a>
     <a href="https://ethan-zheng136.github.io/" target="_blank"><em>[dataset]</em></a>
