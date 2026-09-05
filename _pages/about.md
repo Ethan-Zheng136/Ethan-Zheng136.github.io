@@ -252,7 +252,11 @@ Projects
     <div>
         <strong>YOUDrive: Driving Style as a Steerable Axis for Personalized End-to-End Driving</strong><br>
        <i style="font-size: 13px;">
-    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup>
+    <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>,
+    <a href="#" target="_blank"><strong>Jiashu Li</strong></a>,
+    <a href="#" target="_blank"><strong>Jiaxing Chen</strong></a>,
+    <a href="#" target="_blank"><strong>Tianyu Gao</strong></a>,
+    <a href="#" target="_blank"><strong>Lidong Yu</strong></a>&dagger;
     </i><br>
     YOUDrive treats driving style as a continuous, composable axis on a VLA backbone: a flow-matching decoder commits to feasible trajectories instead of averaging, and each persona is a low-rank task vector scaled by one coefficient. The Style Alignment Score (SAS) reports style independently of safety; on NAVSIM, a single coefficient traces a controllable style path while keeping PDMS above 0.90 (up to 0.954).<br> 
     <b><i style="color:#83a1c7;">CVPR 2027 submission &nbsp;</i></b>
@@ -298,7 +302,7 @@ Projects
     <div>
         <strong>Hyper<sup>2</sup>: Unleashing Hyperbolic Geometry's Full Potential through Dual-Space Consistency</strong><br>
         <i style="font-size: 13px;">
-        <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>*</sup><sup>&dagger;</sup>,
+        <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>&dagger;</sup>,
         <a href="#" target="_blank"><strong>Haiyang Xu</strong></a>,
         <a href="#" target="_blank"><strong>Tianyu Gao</strong></a>
         </i><br>
