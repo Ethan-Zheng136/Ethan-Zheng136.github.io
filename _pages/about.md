@@ -302,7 +302,7 @@ Projects
     <div>
         <strong>Hyper<sup>2</sup>: Unleashing Hyperbolic Geometry's Full Potential through Dual-Space Consistency</strong><br>
         <i style="font-size: 13px;">
-        <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a><sup>&dagger;</sup>,
+        <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>&dagger;,
         <a href="#" target="_blank"><strong>Haiyang Xu</strong></a>,
         <a href="#" target="_blank"><strong>Tianyu Gao</strong></a>
         </i><br>
