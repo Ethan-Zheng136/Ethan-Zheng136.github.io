@@ -177,6 +177,7 @@ I am a PhD student at [AutoMan@NTU](https://lvchen.wixsite.com/automan), advised
 
 Previously I worked at [LightWheel](), [Neolix]((https://neolix.net/)), [AIR@THU](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Autolab@WLU](https://github.com/westlake-autolab) with [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).  
 
+I got my B. Eng. degree from [Huazhong University of Science and Technology]() (2022.9 - 2026.6).
 
 <!-- <h2 class="news">News</h2> -->
 
