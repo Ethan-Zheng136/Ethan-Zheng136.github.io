@@ -232,7 +232,7 @@ Experience
         <div class="experience-info">
             <strong>LightWheel</strong>
             <div class="date">Jun 2024 – Jun 2025</div>
-            <div class="role">Research Intern at <a href="https://lightwheel.ai/"><em>AIR</em></a></div>
+            <div class="role">Research Intern at <a href="https://lightwheel.ai/"><em>LightWheel</em></a></div>
         </div>
     </div>
     <div class="experience-card">
