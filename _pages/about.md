@@ -229,7 +229,7 @@ Experience
         </div>
     </div>
     <div class="experience-card">
-        <img src="/images/logo/lightwheel-logo.png" alt="LightWheel" class="experience-logo">
+        <img src="/images/logo/lightwheel-logo1.png" alt="LightWheel" class="experience-logo">
         <div class="experience-info">
             <strong>LightWheel</strong>
             <div class="date">Jun 2024 – Jun 2025</div>
