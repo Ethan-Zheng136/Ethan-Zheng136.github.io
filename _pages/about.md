@@ -231,7 +231,7 @@ Experience
         <img src="/images/logo/lightwheel-logo.png" alt="LightWheel" class="experience-logo">
         <div class="experience-info">
             <strong>LightWheel</strong>
-            <div class="date">Jun 2024 – Nov 2025</div>
+            <div class="date">Jun 2024 – Jun 2025</div>
             <div class="role">Research Intern at <a href="https://lightwheel.ai/"><em>AIR</em></a></div>
         </div>
     </div>
