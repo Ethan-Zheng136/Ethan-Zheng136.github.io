@@ -39,11 +39,36 @@ redirect_from:
     }
     .experience-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
+        grid-template-columns: repeat(3, 1fr); /* 桌面端每行 3 个 */
+        gap: 14px;
     }
     .experience-card {
         box-sizing: border-box;
+        padding: 12px; /* 覆盖上方 16px：三列布局下更紧凑 */
+    }
+    /* 三列布局下适度缩小 logo 与字体，保证机构名尽量单行 */
+    .experience-container .experience-logo {
+        width: 44px;
+        height: 44px;
+        margin-right: 12px;
+    }
+    .experience-container .experience-info {
+        font-size: 12.5px;
+        line-height: 1.35;
+    }
+    .experience-container .experience-info strong {
+        font-size: 1.0em;
+    }
+    /* 回退机制：窄屏自动降列，避免三列被挤爆 */
+    @media (max-width: 900px) {
+        .experience-container {
+            grid-template-columns: repeat(2, 1fr); /* 平板：2 列 */
+        }
+    }
+    @media (max-width: 600px) {
+        .experience-container {
+            grid-template-columns: 1fr; /* 手机：1 列堆叠 */
+        }
     }
     .publication-card {
         display: flex;
