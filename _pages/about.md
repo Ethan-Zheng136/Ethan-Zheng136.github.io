@@ -175,15 +175,14 @@ redirect_from:
 
 I am a PhD student at [AutoMan@NTU](https://lvchen.wixsite.com/automan), advised by [Prof. Chen Lyu](https://lvchen.wixsite.com/automan), passionate about *Embodied AI, Autonomous Driving and Computer Vision*.
 
-Previously I worked at [AIR@THU](https://air.tsinghua.edu.cn/en/) advised by [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Autolab@WLU](https://github.com/westlake-autolab) advised by [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).  
-
-I just finished my intern at [Neolix](https://neolix.net/) advised by [Lidong Yu]().
+Previously I worked at [Neolix]((https://neolix.net/)), [AIR@THU](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Autolab@WLU](https://github.com/westlake-autolab) with [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).  
 
 
 <!-- <h2 class="news">News</h2> -->
 
 News
 ---------------
+- *Internship completed at [Neolix]()*
 - *[Hyper²]() is accepted in BMVC 2026🔥*
 - *[DriveCombo]() is accepted in CVPR 2026🔥*
 - *[UMPE](https://github.com/Ethan-Zheng136/UMPE) is accepted in ICRA 2026 (Oral Presentation)🔥*
