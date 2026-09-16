@@ -172,8 +172,8 @@ redirect_from:
 </body>
 </html>
 
-I am an undergraduate (2022-2026) at **Huazhong University of Science and Technology** and an incoming PhD at [AutoMan@NTU](https://lvchen.wixsite.com/automan) with [Prof. Chen Lyu](https://lvchen.wixsite.com/automan), passionate about *Autonomous Driving and Computer Vision*.
-I am a PhD student at [AutoMan@NTU](https://lvchen.wixsite.com/automan), advised by [Prof. Chen Lyu](https://lvchen.wixsite.com/automan),
+
+I am a PhD student at [AutoMan@NTU](https://lvchen.wixsite.com/automan), advised by [Prof. Chen Lyu](https://lvchen.wixsite.com/automan), passionate about *Embodied AI, Autonomous Driving and Computer Vision*.
 Previously I worked at [AIR@THU](https://air.tsinghua.edu.cn/en/) advised by [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Autolab@WLU](https://github.com/westlake-autolab) advised by [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).  
 
 I just finished my intern at [Neolix](https://neolix.net/) advised by [Lidong Yu]().
