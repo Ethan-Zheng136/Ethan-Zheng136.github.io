@@ -175,7 +175,7 @@ redirect_from:
 
 I am a PhD student at [AutoMan@NTU](https://lvchen.wixsite.com/automan), advised by [Prof. Chen Lyu](https://lvchen.wixsite.com/automan), passionate about *Embodied AI, Autonomous Driving and Computer Vision*.
 
-Previously I worked at [Neolix]((https://neolix.net/)), [AIR@THU](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Autolab@WLU](https://github.com/westlake-autolab) with [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).  
+Previously I worked at [LightWheel](), [Neolix]((https://neolix.net/)), [AIR@THU](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Autolab@WLU](https://github.com/westlake-autolab) with [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).  
 
 
 <!-- <h2 class="news">News</h2> -->
