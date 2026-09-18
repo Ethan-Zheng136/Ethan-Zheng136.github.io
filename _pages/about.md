@@ -205,6 +205,7 @@ redirect_from:
 <style>
     html { background: #FFFFFF; }                 /* 基础白底放到 html 上 */
     body { background: transparent !important; }  /* 覆盖上方 body 白底，否则会盖住画布 */
+    .page { background: #FFFFFF; }                /* 中间正文列加白底：粒子只在两侧透出，正文后面保持干净 */
     #bg-particles {
         position: fixed;
         inset: 0;
