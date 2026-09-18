@@ -205,7 +205,7 @@ redirect_from:
 <style>
     html { background: #FFFFFF; }                 /* 基础白底放到 html 上 */
     body { background: transparent !important; }  /* 覆盖上方 body 白底，否则会盖住画布 */
-    .page { background: #FFFFFF; }                /* 中间正文列加白底：粒子只在两侧透出，正文后面保持干净 */
+    .page__inner-wrap { background: #FFFFFF; }   /* 白底只贴住文字容器；.page 的右侧大留白(16.95%)让给粒子，右边界更靠近文字。想让粒子离文字更远就把白底改回 .page */
     #bg-particles {
         position: fixed;
         inset: 0;
