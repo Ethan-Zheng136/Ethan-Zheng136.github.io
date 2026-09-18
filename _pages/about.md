@@ -219,19 +219,19 @@ redirect_from:
 <script>
 (function () {
     var canvas = document.getElementById('bg-particles');
-    if (!canvas || !canvas.getContext) { return; } // 优雅降级：不支持 canvas 则不显示
+    if (!canvas || !canvas.getContext) { return; } /* 优雅降级：不支持 canvas 则不显示 */
     var ctx = canvas.getContext('2d');
 
-    // ===== 可调参数 =====
+    /* ===== 可调参数（本主题会压缩 HTML 并删换行，脚本内只能用块注释，切勿用行注释）===== */
     var CFG = {
-        color: '130,140,150',   // 点/线颜色 (RGB)，极淡灰蓝
-        density: 8500,          // 每多少 px² 一个点（越大越疏）
-        maxCount: 130,          // 点数量上限
-        maxDist: 130,           // 邻近点连线阈值(px)
-        speed: 0.28,            // 漂移速度
-        dotRadius: 1.7,         // 点半径
-        lineWidth: 1,           // 线宽
-        mouseDist: 170          // 鼠标连线半径
+        color: '130,140,150',   /* 点/线颜色 (RGB)，极淡灰蓝 */
+        density: 8500,          /* 每多少 px² 一个点（越大越疏） */
+        maxCount: 130,          /* 点数量上限 */
+        maxDist: 130,           /* 邻近点连线阈值(px) */
+        speed: 0.28,            /* 漂移速度 */
+        dotRadius: 1.7,         /* 点半径 */
+        lineWidth: 1,           /* 线宽 */
+        mouseDist: 170          /* 鼠标连线半径 */
     };
 
     var w, h, dpr, particles = [];
@@ -298,7 +298,7 @@ redirect_from:
     window.addEventListener('mouseout', function () { mouse.x = mouse.y = null; });
 
     resize();
-    if (reduce) { step(); } else { loop(); } // 尊重"减弱动态"偏好：只画静态一帧
+    if (reduce) { step(); } else { loop(); } /* 尊重"减弱动态"偏好：只画静态一帧 */
 })();
 </script>
 <!-- ========================= PARTICLES BACKGROUND END ========================= -->
