@@ -55,5 +55,6 @@
   &--lg {
     padding-right: 3em;
     font-weight: 700;
+    font-size: 1.4em; /* 只放大站点标题(名字)，CV 等其它项不受影响 */
   }
 }
