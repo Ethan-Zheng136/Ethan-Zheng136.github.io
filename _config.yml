@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ethan Zheng / Personal Homepage"
+title                    : "Stevens Zheng / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Guantian Zheng"
 description              : &description "AI Researcher | Autonomous Driving | Computer Vision"
@@ -24,7 +24,7 @@ remote_theme             : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "zgt_new.jpg"
-  name             : "Guantian Zheng"
+  name             : "Guantian Zheng (Stevens)"
   pronouns         : "He/Him" # example: "she/her"  
   bio              : "PhD at AutoMan@NTU, AI Researcher at AIR@THU"
   location         : "Singapore"
