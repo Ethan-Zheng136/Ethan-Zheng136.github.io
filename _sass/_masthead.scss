@@ -19,7 +19,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em 0; /* 左内边距设 0，让标题左移、更贴近页面左缘 */
+    padding: 1em 1em 1em;
     font-family: "Dancing Script", "Comic Sans MS", "Verdana", cursive;
     font-weight: 700;
     font-size: 17px;
