@@ -205,7 +205,11 @@ redirect_from:
 <style>
     html { background: #FFFFFF; }                 /* 基础白底放到 html 上 */
     body { background: transparent !important; }  /* 覆盖上方 body 白底，否则会盖住画布 */
-    .page__inner-wrap { background: #FFFFFF; }   /* 白底只贴住文字容器；.page 的右侧大留白(16.95%)让给粒子，右边界更靠近文字。想让粒子离文字更远就把白底改回 .page */
+    .page__inner-wrap { background: #FFFFFF; }   /* 白底只贴住文字容器；.page 的右侧大留白让给粒子，右边界更靠近文字。想让粒子离文字更远就把白底改回 .page */
+    /* 收窄正文列右侧的空白侧栏(主题默认留 16.95%)，让正文向右延伸、整体更居中；仅桌面双栏布局生效，窄屏自动回退默认单栏 */
+    @media screen and (min-width: 925px) {
+        .page { padding-right: 10%; }
+    }
     #bg-particles {
         position: fixed;
         inset: 0;
