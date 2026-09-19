@@ -20,7 +20,8 @@
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
-    font-family: "italic","Music Carnival","HFBest Wishes", "Comic Sans MS","Verdana";
+    font-family: "Dancing Script", "Comic Sans MS", "Verdana", cursive;
+    font-weight: 700;
     font-size: 17px;
     @include breakpoint($x-large) {
       max-width: $x-large;
