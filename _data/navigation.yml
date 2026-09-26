@@ -12,17 +12,20 @@ main:
   #   url: /publications/
 
   # - title: "Talks"
-  #   url: /talks/    
+  #   url: /talks/
 
   # - title: "Teaching"
-  #   url: /teaching/    
-    
+  #   url: /teaching/
+
   # - title: "Portfolio"
   #   url: /portfolio/
-        
+
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
+
+  - title: "Footprints"
+    url: "#footprints"
+
   - title: "CV"
     url: /files/resume_0.pdf
     

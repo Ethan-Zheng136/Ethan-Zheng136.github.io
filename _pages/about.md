@@ -447,12 +447,88 @@ redirect_from:
 </script>
 <!-- ========================= SITE STATS END ========================= -->
 
+<!-- ========================= FOOTPRINTS MAP START =========================
+     世界足迹地图。与顶部导航 "Footprints" 联动，点击在正文区原地切换(不跳页)，
+     头像列(sidebar)始终保留。逻辑在 assets/js/footprints.js（外部文件，避开压缩坑）。
+     还原：删除本注释到 END 之间的内容 + navigation.yml 的 Footprints 项 + footprints.js。
+============================================================================= -->
+<style>
+  :root{
+    --fp-map-bg:#e9eef6; --fp-land:#c2cfe6; --fp-stroke:#ffffff; --fp-pin:#c0564f;
+  }
+  html[data-theme="dark"]{
+    --fp-map-bg:#0f1524; --fp-land:#26324c; --fp-stroke:#0f1524; --fp-pin:#ff7a6b;
+  }
+  /* 面板默认隐藏；只有 body.fp-on 时显示，同时隐藏正文其它块 */
+  #fp-panel{display:none;}
+  body.fp-on #fp-panel{display:block;}
+  body.fp-on .page__content > *:not(#fp-panel){display:none !important;}
+
+  #fp-panel .fp-head{display:flex; align-items:flex-end; justify-content:space-between; gap:16px; flex-wrap:wrap; margin:6px 0 16px;}
+  #fp-panel .fp-title{font-size:1.9em; font-weight:700; line-height:1.1; margin:0;}
+  #fp-panel .fp-sub{color:#8b827a; font-size:14px; margin:6px 0 0;}
+  html[data-theme="dark"] #fp-panel .fp-sub{color:#a99f94;}
+  #fp-back{flex:none; display:inline-flex; align-items:center; gap:6px; cursor:pointer;
+    border:1px solid #e3b3b3; background:#fff; color:#c0564f; border-radius:20px;
+    padding:7px 16px; font:600 13px/1 -apple-system,Segoe UI,Roboto,sans-serif; transition:background .15s,color .15s;}
+  #fp-back:hover{background:#c0564f; color:#fff; border-color:#c0564f;}
+  html[data-theme="dark"] #fp-back{background:transparent; border-color:#5a4a44; color:#e07a6f;}
+  html[data-theme="dark"] #fp-back:hover{background:#e07a6f; color:#16130f;}
+
+  #fp-frame{position:relative; border:1px solid #e7e1da; border-radius:16px; overflow:hidden;
+    background:var(--fp-map-bg); box-shadow:0 10px 30px rgba(43,38,33,.10), 0 2px 6px rgba(43,38,33,.06);}
+  html[data-theme="dark"] #fp-frame{border-color:#332d25; box-shadow:0 14px 36px rgba(0,0,0,.5);}
+  #fp-map{position:relative; width:100%; aspect-ratio:2 / 1;}
+  #fp-map .jvm-container{width:100%; height:100%;}
+  #fp-panel .jvm-container{position:relative; overflow:hidden; touch-action:none; background:transparent;}
+  #fp-panel .jvm-tooltip{position:absolute; display:none; border-radius:7px; padding:5px 9px; z-index:9;
+    background:#211d18; color:#fff; font:500 12px -apple-system,Segoe UI,sans-serif; white-space:nowrap;
+    box-shadow:0 6px 20px rgba(0,0,0,.35); pointer-events:none;}
+  #fp-panel .jvm-tooltip.jvm-show{display:block;}
+  #fp-panel .jvm-zoom-btn{display:none;}
+  #fp-vignette{position:absolute; inset:0; pointer-events:none; opacity:0; z-index:2;
+    background:radial-gradient(120% 90% at 50% 45%, transparent 58%, rgba(6,10,20,.5) 100%);}
+  html[data-theme="dark"] #fp-vignette{opacity:1;}
+  #fp-fallback{position:absolute; inset:0; display:none; align-items:center; justify-content:center;
+    color:#8b827a; font-size:14px; text-align:center; padding:24px; z-index:6;}
+  #fp-fallback.show{display:flex;}
+
+  /* 脉冲雷达标记：标记发光 + 两圈向外扩散的涟漪 */
+  #fp-map .jvm-marker{filter:drop-shadow(0 0 5px var(--fp-pin));}
+  #fp-map .fp-ripple{fill:none; stroke:var(--fp-pin); transform-box:fill-box; transform-origin:center;
+    animation:fp-ripple 2.4s ease-out infinite;}
+  #fp-map .fp-ripple.d2{animation-delay:1.2s;}
+  @keyframes fp-ripple{0%{transform:scale(.6); opacity:.8;} 100%{transform:scale(2.1); opacity:0;}}
+  @media (prefers-reduced-motion: reduce){ #fp-map .fp-ripple{animation:none; opacity:0;} }
+
+  #fp-legend{display:flex; flex-wrap:wrap; gap:7px; margin-top:16px;}
+  #fp-legend .fp-chip{display:inline-flex; align-items:center; gap:6px; padding:4px 11px; border-radius:20px;
+    background:#faf8f6; border:1px solid #e7e1da; font-size:12.5px; color:#2b2621;}
+  html[data-theme="dark"] #fp-legend .fp-chip{background:#1a1712; border-color:#332d25; color:#f0ebe3;}
+  #fp-legend .fp-chip i{font-style:normal; color:var(--fp-pin);}
+</style>
+<div id="fp-panel" markdown="0">
+  <div class="fp-head">
+    <div>
+      <p class="fp-title">Footprints</p>
+      <p class="fp-sub">Cities I've lived, studied, and traveled — 15 places across 3 continents.</p>
+    </div>
+    <a id="fp-back" role="button">← Back</a>
+  </div>
+  <div id="fp-frame">
+    <div id="fp-map"></div>
+    <div id="fp-vignette"></div>
+    <div id="fp-fallback">地图加载失败 —— 请检查网络或稍后刷新。</div>
+  </div>
+</div>
+<!-- ========================= FOOTPRINTS MAP END ========================= -->
+
 
 I am a PhD student at [AutoMan@NTU](https://lvchen.wixsite.com/automan), advised by [Prof. Chen Lyu](https://lvchen.wixsite.com/automan), passionate about *Embodied AI, Autonomous Driving and Computer Vision*.
 
 Previously I worked at [LightWheel](), [Neolix]((https://neolix.net/)), [AIR@THU](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Autolab@WLU](https://github.com/westlake-autolab) with [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).  
 
-I got my B. Eng. degree from [Huazhong University of Science and Technology]() (2022.9 - 2026.6).
+I got my B.Eng. degree from [Huazhong University of Science and Technology]() (2022.9 - 2026.6).
 
 <!-- <h2 class="news">News</h2> -->
 
@@ -573,7 +649,7 @@ Projects
         <a href="https://ethan-zheng136.github.io" target="_blank"><strong>Guantian Zheng</strong></a>&dagger;
         </i><br>
         StyleShield, the first flow matching framework for conditional text style transfer in continuous token embedding space. A single parameter γ provides smooth, continuous control over the evasion--preservation trade-off, fundamentally inaccessible to discrete-token methods. <br>
-        <b><i style="color:#83a1c7;">EACL 2026 submission &nbsp;</i></b>
+        <b><i style="color:#83a1c7;">NAACL 2027 submission &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2605.00924" target="_blank"><em>[arxiv]</em></a>
         <a href="https://github.com/Ethan-Zheng136/StyleShield"><em>[code]</em></a>
         <a href="https://github.com/Ethan-Zheng136/StyleShield"><em>[dataset]</em></a>
@@ -747,3 +823,8 @@ Honors & Awards
 
 ---
 
+<!-- Footprints 地图依赖：jsvectormap + world data + 联动脚本。放正文末尾统一加载。 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.6.0/dist/jsvectormap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.6.0/dist/jsvectormap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.6.0/dist/maps/world.js"></script>
+<script src="{{ base_path }}/assets/js/footprints.js"></script>
