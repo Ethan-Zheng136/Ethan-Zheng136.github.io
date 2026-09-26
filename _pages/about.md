@@ -454,10 +454,10 @@ redirect_from:
 ============================================================================= -->
 <style>
   :root{
-    --fp-map-bg:#e9eef6; --fp-land:#c2cfe6; --fp-stroke:#ffffff; --fp-pin:#c0564f;
+    --fp-map-bg:#dbe3f0; --fp-land:#b3c2de; --fp-stroke:#ffffff; --fp-pin:#c0564f;
   }
   html[data-theme="dark"]{
-    --fp-map-bg:#0f1524; --fp-land:#26324c; --fp-stroke:#0f1524; --fp-pin:#ff7a6b;
+    --fp-map-bg:#0b1020; --fp-land:#26324c; --fp-stroke:#0b1020; --fp-pin:#ff7a6b;
   }
   /* 面板默认隐藏；只有 body.fp-on 时显示，同时隐藏正文其它块 */
   #fp-panel{display:none;}
@@ -478,9 +478,16 @@ redirect_from:
   html[data-theme="dark"] #fp-back{background:transparent; border-color:#5a4a44; color:#e07a6f;}
   html[data-theme="dark"] #fp-back:hover{background:#e07a6f; color:#16130f;}
 
-  #fp-frame{position:relative; border:1px solid #e7e1da; border-radius:16px; overflow:hidden;
-    background:var(--fp-map-bg); box-shadow:0 10px 30px rgba(43,38,33,.10), 0 2px 6px rgba(43,38,33,.06);}
-  html[data-theme="dark"] #fp-frame{border-color:#332d25; box-shadow:0 14px 36px rgba(0,0,0,.5);}
+  #fp-frame{position:relative; border:1px solid #d7cfc5; border-radius:16px; overflow:hidden;
+    background:var(--fp-map-bg); transform:translateY(-4px);
+    box-shadow:0 22px 48px -12px rgba(43,38,33,.28), 0 8px 18px rgba(43,38,33,.12);
+    transition:transform .25s ease, box-shadow .25s ease;}
+  #fp-frame:hover{transform:translateY(-8px);
+    box-shadow:0 30px 60px -12px rgba(43,38,33,.34), 0 10px 22px rgba(43,38,33,.14);}
+  html[data-theme="dark"] #fp-frame{border-color:#3a3229;
+    box-shadow:0 24px 56px -12px rgba(0,0,0,.66), 0 8px 20px rgba(0,0,0,.5);}
+  html[data-theme="dark"] #fp-frame:hover{
+    box-shadow:0 32px 68px -12px rgba(0,0,0,.72), 0 10px 24px rgba(0,0,0,.55);}
   #fp-map{position:relative; width:100%; aspect-ratio:2 / 1;}
   #fp-map .jvm-container{width:100%; height:100%;}
   #fp-panel .jvm-container{position:relative; overflow:hidden; touch-action:none; background:transparent;}
