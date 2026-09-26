@@ -18,3 +18,12 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+
+# Local-only preview/scratch (screenshots, demo html) — never publish
+_preview_预览/
+
+# macOS system junk
+.DS_Store
+
+# Backup files
+*.bak
