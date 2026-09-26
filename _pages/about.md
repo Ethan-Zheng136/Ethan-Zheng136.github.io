@@ -464,6 +464,9 @@ redirect_from:
   body.fp-on #fp-panel{display:block;}
   body.fp-on .page__content > *:not(#fp-panel){display:none !important;}
 
+  /* 顶部导航 Footprints 略放大(不影响相邻 CV) */
+  #site-nav a[href*="#footprints"]{font-size:1.2em;}
+
   #fp-panel .fp-head{display:flex; align-items:flex-end; justify-content:space-between; gap:16px; flex-wrap:wrap; margin:6px 0 16px;}
   #fp-panel .fp-title{font-size:1.9em; font-weight:700; line-height:1.1; margin:0;}
   #fp-panel .fp-sub{color:#8b827a; font-size:14px; margin:6px 0 0;}
@@ -511,7 +514,7 @@ redirect_from:
   <div class="fp-head">
     <div>
       <p class="fp-title">Footprints</p>
-      <p class="fp-sub">Cities I've lived, studied, and traveled — 15 places across 3 continents.</p>
+      <p class="fp-sub">Every marker a place I've studied in, wandered through, or called home.</p>
     </div>
     <a id="fp-back" role="button">← Back</a>
   </div>
