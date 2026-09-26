@@ -308,6 +308,145 @@ redirect_from:
 </script>
 <!-- ========================= PARTICLES BACKGROUND END ========================= -->
 
+<!-- ========================= SITE STATS (VIEWS + LIKES) START =========================
+     访问量 Views(侧栏头像下方) + 点赞 Like(页脚版权行下方)。仅主页生效。
+     还原：整段删除本注释到 END 之间的内容即可。
+     计数存储：Firebase Firestore。未填配置(FB=null)时=本地演示模式(localStorage)，方便本地预览。
+     初始种子：likes=281 / views=3473（正式上线在 Firestore 建 stats/home 文档写入，非页面硬编码）。
+     ⚠ 本主题压缩 HTML 会删换行，脚本内只能用块注释，禁止使用行注释。
+============================================================================= -->
+<style>
+  #site-views{margin:14px 0 6px;display:inline-flex;align-items:center;gap:7px;color:#9098a1;font-size:13px;letter-spacing:.2px;font-family:-apple-system,Segoe UI,Roboto,sans-serif;}
+  #site-views .eye-ic{color:#b6bcc4;flex:none;}
+  #site-views b{color:#6a7078;font-weight:700;font-variant-numeric:tabular-nums;}
+  #site-like-wrap{margin-top:16px;display:flex;justify-content:center;}
+  #site-like{display:inline-flex;align-items:center;gap:8px;cursor:pointer;border:1px solid #e3b3b3;background:#fff;color:#c0564f;border-radius:22px;padding:9px 22px;font:600 14px/1 -apple-system,Segoe UI,Roboto,sans-serif;transition:background .15s,color .15s,border-color .15s;}
+  #site-like:hover{background:#fdeeee;}
+  #site-like.liked{background:#c0564f;color:#fff;border-color:#c0564f;cursor:default;}
+  #site-like .heart{font-size:15px;line-height:1;}
+  #site-like.pulse .heart{animation:sl-pop .4s;}
+  @keyframes sl-pop{0%{transform:scale(1)}40%{transform:scale(1.5)}100%{transform:scale(1)}}
+  #site-like b{font-variant-numeric:tabular-nums;}
+</style>
+<script>
+(function () {
+    /* ===== 配置区 ===== */
+    var SEED_VIEWS = 3473;   /* 浏览量起步值（云端无数据时的兜底显示） */
+    var SEED_LIKES = 281;    /* 点赞起步值 */
+    var FB = {
+        apiKey: "AIzaSyC9SXp_sJxcqe0p79l2ppsvVlI7j_-ubhg",
+        authDomain: "homepage-likes.firebaseapp.com",
+        projectId: "homepage-likes",
+        storageBucket: "homepage-likes.firebasestorage.app",
+        messagingSenderId: "440428448632",
+        appId: "1:440428448632:web:341b659c7541b6dcb0168d"
+    };  /* 填入 Firebase config 对象即切换为云端实时模式；null=本地演示模式 */
+
+    function fmt(n) { return (n == null ? 0 : n).toLocaleString('en-US'); }
+    function setViews(n) { var e = document.getElementById('views-num'); if (e) { e.textContent = fmt(n); } }
+    function setLikes(n) { var e = document.getElementById('like-num'); if (e) { e.textContent = fmt(n); } }
+    function alreadyLiked() { try { return localStorage.getItem('site_liked') === '1'; } catch (e) { return false; } }
+    function markLiked() {
+        try { localStorage.setItem('site_liked', '1'); } catch (e) {}
+        var b = document.getElementById('site-like');
+        if (b) { b.classList.add('liked', 'pulse'); setTimeout(function () { b.classList.remove('pulse'); }, 400); }
+    }
+
+    var onLikeClick = function () {}; /* 由具体模式赋值 */
+
+    /* ===== 注入 Views 到侧栏（头像/bio 下方）===== */
+    function injectViews() {
+        var host = document.querySelector('.author__content');
+        if (!host || document.getElementById('site-views')) { return; }
+        var el = document.createElement('span');
+        el.id = 'site-views';
+        el.innerHTML = '<svg class="eye-ic" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/><circle cx="12" cy="12" r="3"/></svg><span>Views</span><b id="views-num">' + fmt(SEED_VIEWS) + '</b>';
+        var bio = host.querySelector('.author__bio');
+        if (bio) { bio.insertAdjacentElement('afterend', el); } else { host.appendChild(el); }
+    }
+
+    /* ===== 注入 Like 到页脚 ===== */
+    function injectLike() {
+        var host = document.querySelector('.page__footer-copyright');
+        if (!host || document.getElementById('site-like-wrap')) { return; }
+        var wrap = document.createElement('div');
+        wrap.id = 'site-like-wrap';
+        wrap.innerHTML = '<button id="site-like" type="button"><span class="heart">&#9829;</span><span>Like</span><b id="like-num">' + fmt(SEED_LIKES) + '</b></button>';
+        host.appendChild(wrap);
+        if (alreadyLiked()) { wrap.querySelector('#site-like').classList.add('liked'); }
+        wrap.querySelector('#site-like').addEventListener('click', function () { onLikeClick(); });
+    }
+
+    /* ===== 本地演示模式（无 Firebase 时）===== */
+    function runDemo() {
+        var v = NaN, l = NaN;
+        try { v = parseInt(localStorage.getItem('demo_views'), 10); } catch (e) {}
+        if (isNaN(v)) { v = SEED_VIEWS; }
+        v = v + 1;
+        try { localStorage.setItem('demo_views', v); } catch (e) {}
+        setViews(v);
+        try { l = parseInt(localStorage.getItem('demo_likes'), 10); } catch (e) {}
+        if (isNaN(l)) { l = SEED_LIKES; }
+        setLikes(l);
+        onLikeClick = function () {
+            if (alreadyLiked()) { return; }
+            l = l + 1;
+            try { localStorage.setItem('demo_likes', l); } catch (e) {}
+            setLikes(l);
+            markLiked();
+        };
+    }
+
+    /* ===== Firebase 云端模式 ===== */
+    function loadScript(src, cb) {
+        var s = document.createElement('script');
+        s.src = src; s.onload = function () { cb(null); };
+        s.onerror = function () { cb(new Error('load fail')); };
+        document.head.appendChild(s);
+    }
+    function runFirebase() {
+        var base = 'https://www.gstatic.com/firebasejs/10.12.2/';
+        loadScript(base + 'firebase-app-compat.js', function (e1) {
+            if (e1) { return; } /* 加载失败：保持种子静态显示，页面不报错 */
+            loadScript(base + 'firebase-firestore-compat.js', function (e2) {
+                if (e2) { return; }
+                try {
+                    firebase.initializeApp(FB);
+                    var db = firebase.firestore();
+                    var ref = db.collection('stats').doc('home');
+                    var inc = firebase.firestore.FieldValue.increment(1);
+                    /* 每次加载 views+1（总访问次数 PV），再读回显示 */
+                    ref.set({ views: inc }, { merge: true }).then(function () { return ref.get(); }).then(function (d) {
+                        var data = (d && d.exists) ? d.data() : {};
+                        setViews(typeof data.views === 'number' ? data.views : SEED_VIEWS);
+                        setLikes(typeof data.likes === 'number' ? data.likes : SEED_LIKES);
+                    }).catch(function () {});
+                    onLikeClick = function () {
+                        if (alreadyLiked()) { return; }
+                        markLiked();
+                        var ce = document.getElementById('like-num');
+                        var cur = ce ? parseInt(ce.textContent.replace(/,/g, ''), 10) : SEED_LIKES;
+                        setLikes(isNaN(cur) ? SEED_LIKES + 1 : cur + 1); /* 乐观更新 */
+                        ref.set({ likes: firebase.firestore.FieldValue.increment(1) }, { merge: true })
+                           .then(function () { return ref.get(); })
+                           .then(function (d) { if (d && d.exists && typeof d.data().likes === 'number') { setLikes(d.data().likes); } })
+                           .catch(function () {});
+                    };
+                } catch (err) { /* 初始化异常：保持种子显示 */ }
+            });
+        });
+    }
+
+    function boot() {
+        injectViews();
+        injectLike();
+        if (FB) { runFirebase(); } else { runDemo(); }
+    }
+    if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', boot); } else { boot(); }
+})();
+</script>
+<!-- ========================= SITE STATS END ========================= -->
+
 
 I am a PhD student at [AutoMan@NTU](https://lvchen.wixsite.com/automan), advised by [Prof. Chen Lyu](https://lvchen.wixsite.com/automan), passionate about *Embodied AI, Autonomous Driving and Computer Vision*.
 
@@ -376,7 +515,7 @@ Experience
         <img src="/images/logo/hust-logo.png" alt="HUST" class="experience-logo">
         <div class="experience-info">
             <strong>Huazhong Univ of Sci and Tech</strong>
-            <div class="date">Sep 2022 – Jul 2026</div>
+            <div class="date">Sep 2022 – Jun 2026</div>
             <div class="role">Research Assistant at <a href="https://xwcv.github.io/"><em>XWCV</em></a></div>
         </div>
     </div>
