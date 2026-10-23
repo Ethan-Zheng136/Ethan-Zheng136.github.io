@@ -569,7 +569,7 @@ Experience
         <img src="/images/logo/neolix-logo.png" alt="Neolix" class="experience-logo">
         <div class="experience-info">
             <strong>Neolix</strong>
-            <div class="date">Feb 2026 – Present</div>
+            <div class="date">Feb 2026 – Nov 2026</div>
             <div class="role">Research Intern at <a href="https://neolix.net/"><em>Neolix-AD</em></a></div>
         </div>
     </div>
