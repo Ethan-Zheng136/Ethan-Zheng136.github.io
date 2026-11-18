@@ -824,10 +824,9 @@ Honors & Awards
 
 <div class="awards-list">
     <ul>
+        <li><strong>Debate Competition Champion</strong></li>
         <li><strong>Outstanding Graduate of HUST</strong></li>
-        <li><strong>National Scholarship</strong></li>
-        <li><strong>Academic Excellence Scholarship</strong> *2</li>
-        <li><strong>Self-Motivation and Diligence Scholarship</strong></li>
+        <li><strong>Academic Excellence Scholarship</strong> *2 · <strong>National Scholarship</strong> · <strong>Self-Motivation and Diligence Scholarship</strong></li>
     </ul>
 </div>
 
