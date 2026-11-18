@@ -538,7 +538,7 @@ I am a PhD student at [AutoMan@NTU](https://lvchen.wixsite.com/automan), advised
 
 Previously I worked at [LightWheel](), [Neolix]((https://neolix.net/)), [AIR@THU](https://air.tsinghua.edu.cn/en/) with [Prof. Hao Zhao](https://sites.google.com/view/fromandto) and [Autolab@WLU](https://github.com/westlake-autolab) with [Prof. Kaicheng Yu](https://www.yukaicheng.cn/).  
 
-I got my B.Eng. degree from [Huazhong University of Science and Technology]() (2022.9 - 2026.6).
+I got my B.Eng. degree from [Huazhong University of Science and Technology]() (2021.9 - 2025.6).
 
 <!-- <h2 class="news">News</h2> -->
 
@@ -561,7 +561,7 @@ Experience
         <img src="/images/logo/ntu-logo1.png" alt="Nanyang Technological University" class="experience-logo">
         <div class="experience-info">
             <strong>Nanyang Technological University</strong>
-            <div class="date">Aug 2026 – </div>
+            <div class="date">Aug 2025 – </div>
             <div class="role">Ph.D at <a href="https://lvchen.wixsite.com/automan"><em>AutoMan@NTU</em></a></div>
         </div>
     </div>
@@ -601,7 +601,7 @@ Experience
         <img src="/images/logo/hust-logo.png" alt="HUST" class="experience-logo">
         <div class="experience-info">
             <strong>Huazhong Univ of Sci and Tech</strong>
-            <div class="date">Sep 2022 – Jun 2026</div>
+            <div class="date">Sep 2021 – Jun 2025</div>
             <div class="role">Research Assistant at <a href="https://xwcv.github.io/"><em>XWCV</em></a></div>
         </div>
     </div>
@@ -824,10 +824,10 @@ Honors & Awards
 
 <div class="awards-list">
     <ul>
-        <li><strong>Outstanding Graduate of HUST</strong> (2026)</li>
-        <li><strong>Academic Excellence Scholarship</strong> (2025)</li>
-        <li><strong>Self-Motivation and Diligence Scholarship</strong> (2024)</li>
-        <li><strong>Academic Excellence Scholarship</strong> (2023)</li>
+        <li><strong>Outstanding Graduate of HUST</strong></li>
+        <li><strong>National Scholarship</strong></li>
+        <li><strong>Academic Excellence Scholarship</strong> *2</li>
+        <li><strong>Self-Motivation and Diligence Scholarship</strong></li>
     </ul>
 </div>
 
